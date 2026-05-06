@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VICCA | Migration Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: rgba(30, 41, 59, 0.7);
+            --primary: #38bdf8;
+            --accent: #818cf8;
+            --text: #f8fafc;
+            --success: #4ade80;
+        }
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: radial-gradient(circle at top right, #1e1b4b, #0f172a);
+            color: var(--text);
+            margin: 0;
+            padding: 40px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 1000px;
+            width: 100%;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin: 0;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .badge {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--primary);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+        .card {
+            background: var(--card);
+            backdrop-filter: blur(12px);
+            border-radius: 24px;
+            padding: 32px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: var(--primary);
+        }
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .status {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--success);
+            box-shadow: 0 0 10px var(--success);
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+            transition: opacity 0.2s;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        code {
+            background: rgba(0,0,0,0.3);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            color: var(--accent);
+        }
+        .instructions {
+            font-size: 0.95rem;
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="badge">v2.0 Stable</span>
+            <h1>VICCA Migration Hub</h1>
+            <p>Control central de migración de accesorios Magento a Shopify</p>
+        </header>
+
+        <div class="grid">
+            <!-- FASE 1: PRODUCTOS -->
+            <div class="card">
+                <h2><div class="status"></div> Fase 1: Productos</h2>
+                <p class="instructions">Importa los accesorios como productos independientes (sombra).</p>
+                <code>shopify_accesorios_import.csv</code>
+                <a href="#" class="btn" onclick="alert('Busca el archivo shopify_accesorios_import.csv en tu carpeta local')">Listado de 200 items</a>
+            </div>
+
+            <!-- FASE 2: RELACIONES -->
+            <div class="card">
+                <h2><div class="status"></div> Fase 2: Configuración</h2>
+                <p class="instructions">Vincula los accesorios a los productos principales vía Metafields.</p>
+                <code>shopify_metafields_accesorios.csv</code>
+                <a href="#" class="btn" onclick="alert('Usa Matrixify o el importador de Shopify con este archivo')">Vincular 188 productos</a>
+            </div>
+
+            <!-- FASE 3: RELACIONADOS -->
+            <div class="card">
+                <h2><div class="status"></div> Fase 3: Relacionados</h2>
+                <p class="instructions">Importa los productos recomendados y cross-sell de Magento.</p>
+                <code>shopify_metafields_relacionados.csv</code>
+                <a href="#" class="btn" onclick="alert('Importa este archivo para activar recomendaciones')">Relacionar 330 productos</a>
+            </div>
+
+            <!-- FASE 4: TEMA -->
+            <div class="card" style="grid-column: span 1;">
+                <h2><div class="status"></div> Fase 4: Instalación</h2>
+                <p class="instructions">Instala los componentes Liquid y JS en tu tema de Shopify.</p>
+                <div style="font-size: 0.8rem; margin-top:10px;">
+                    <div>📂 Snippets: <code>product-accessories.liquid</code></div>
+                    <div>📂 Assets: <code>product-accessories.js</code></div>
+                </div>
+                <a href="#" class="btn" style="background: #334155;">Ver Código en Carpeta</a>
+            </div>
+        </div>
+
+        <footer style="margin-top: 60px; text-align: center; color: #475569; font-size: 0.9rem;">
+            <p>Generado por Antigravity para VICCA &copy; 2026</p>
+        </footer>
+    </div>
+</body>
+</html>

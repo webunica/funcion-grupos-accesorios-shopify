@@ -28,5 +28,6 @@ Para cada accesorio (ej. "Patas Cromadas"):
 ### 3. Vincular con el Producto Principal
 En el producto principal (ej. Silla), usa el metafield `custom.accessories` para seleccionar todos los productos que deben aparecer como opciones.
 
-### 4. Integrar en la Plantilla
-Sigue las instrucciones anteriores para insertar `{% render 'product-accessories', product: product %}` en tu archivo `main-product.liquid`.
+### 5. Migration Hub Dashboard
+He creado una herramienta visual para ayudarte a gestionar todo el proceso:
+- Abre el archivo `migration-hub.html` en tu navegador para ver el estado de la migración y acceder a las instrucciones interactivas.
