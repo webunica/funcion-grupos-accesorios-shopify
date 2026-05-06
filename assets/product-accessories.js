@@ -19,64 +19,56 @@ document.addEventListener('DOMContentLoaded', function() {
   function updateTotalPrice() {
     let basePrice = parseInt(totalDisplay.dataset.basePrice);
     let extraPrice = 0;
-    let selectedCount = 0;
 
-    checkboxes.forEach(checkbox => {
-      if (checkbox.checked) {
-        extraPrice += parseInt(checkbox.dataset.price);
-        selectedCount++;
+    checkboxes.forEach(input => {
+      if (input.checked) {
+        extraPrice += parseInt(input.dataset.price);
       }
     });
 
-    if (selectedCount > 0) {
-      totalSection.style.display = 'block';
-      totalDisplay.textContent = formatMoney(basePrice + extraPrice);
-    } else {
-      totalSection.style.display = 'none';
-    }
+    totalDisplay.textContent = formatMoney(basePrice + extraPrice);
   }
 
-  checkboxes.forEach(checkbox => {
-    checkbox.addEventListener('change', updateTotalPrice);
+  checkboxes.forEach(input => {
+    input.addEventListener('change', updateTotalPrice);
   });
 
   // Intercept the main Add to Cart form
   const productForm = document.querySelector('form[action="/cart/add"]');
   if (productForm) {
     productForm.addEventListener('submit', function(e) {
-      const selectedAccessories = Array.from(checkboxes)
-        .filter(cb => cb.checked)
-        .map(cb => ({
-          id: cb.value,
-          quantity: 1
-        }));
-
-      if (selectedAccessories.length > 0) {
+      const selectedInputs = Array.from(checkboxes).filter(input => input.checked);
+      
+      if (selectedInputs.length > 0) {
         e.preventDefault();
         
-        // Prepare items array for Shopify AJAX API
         const formData = new FormData(productForm);
         const mainId = formData.get('id');
-        const mainQty = formData.get('quantity') || 1;
+        const mainQty = parseInt(formData.get('quantity') || 1);
 
-        const items = [
-          { id: mainId, quantity: parseInt(mainQty) },
-          ...selectedAccessories
-        ];
+        const items = [{ id: mainId, quantity: mainQty }];
+
+        selectedInputs.forEach(input => {
+          items.push({
+            id: input.value,
+            quantity: mainQty // Normalmente se agrega uno por cada producto principal
+          });
+        });
 
         fetch('/cart/add.js', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ items: items })
         })
-        .then(response => response.json())
-        .then(data => {
-          // Redirect to cart or show success message
+        .then(response => {
+          if (!response.ok) throw new Error('Network response was not ok');
+          return response.json();
+        })
+        .then(() => {
           window.location.href = '/cart';
         })
         .catch(error => {
           console.error('Error adding to cart:', error);
-          // Fallback: submit original form if AJAX fails
           productForm.submit();
         });
       }

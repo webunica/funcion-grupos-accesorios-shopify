@@ -16,19 +16,17 @@ In your Shopify Admin:
 - **Namespace and key**: `custom.accessories`
 - **Type**: `List of products` (Reference > Product > List of products).
 
-### 2. Upload Files
-- Upload `snippets/product-accessories.liquid` to your theme's `snippets` folder.
-- Upload `assets/product-accessories.js` to your theme's `assets` folder.
+### 2. Configurar Productos de Accesorios
+Para cada accesorio (ej. "Patas Cromadas"):
+- Créalo como un producto independiente.
+- **Importante**: Asigna un **Product Type** (Tipo de producto) descriptivo (ej. `Patas`, `Brazos`, `Accesorios`).
+- El sistema agrupará automáticamente los accesorios por este campo.
+- **Lógica de selección**:
+    - Si el tipo es `Accesorios` o `Extras`, el cliente puede seleccionar varios (Checkboxes).
+    - Para cualquier otro tipo (ej. `Patas`), el sistema asume que es excluyente y usa Radio Buttons (solo uno por grupo).
 
-### 3. Integrate into Product Template
-Find your main product section (usually `sections/main-product.liquid` or `snippets/product-form.liquid`).
-Place the following code where you want the accessories to appear (usually above the "Add to Cart" button):
+### 3. Vincular con el Producto Principal
+En el producto principal (ej. Silla), usa el metafield `custom.accessories` para seleccionar todos los productos que deben aparecer como opciones.
 
-```liquid
-{% render 'product-accessories', product: product %}
-```
-
-### 4. How it works
-- The snippet checks for products listed in the `custom.accessories` metafield.
-- It displays them with checkboxes.
-- When the "Add to Cart" button is clicked, the script intercepts the event and uses the Shopify AJAX API to add both the main product and all selected accessories at once.
+### 4. Integrar en la Plantilla
+Sigue las instrucciones anteriores para insertar `{% render 'product-accessories', product: product %}` en tu archivo `main-product.liquid`.
