@@ -1,0 +1,98 @@
+{% comment %}
+  Snippet: product-accessories.liquid
+  Usage: {% render 'product-accessories', product: product %}
+{% endcomment %}
+
+{% assign accessories = product.metafields.custom.accessories.value %}
+
+{% if accessories != blank %}
+<div class="product-accessories-container" id="product-accessories-{{ product.id }}">
+  <h3 class="product-accessories-title">{{ 'Complementa tu compra' | escape }}</h3>
+  
+  <div class="product-accessories-list">
+    {% for accessory in accessories %}
+      {% if accessory.available %}
+        <div class="product-accessory-item" data-variant-id="{{ accessory.first_available_variant.id }}">
+          <div class="accessory-checkbox">
+            <input type="checkbox" 
+                   id="accessory-{{ accessory.id }}" 
+                   class="accessory-input" 
+                   value="{{ accessory.first_available_variant.id }}"
+                   data-price="{{ accessory.price }}">
+          </div>
+          
+          <div class="accessory-image">
+            <img src="{{ accessory.featured_image | img_url: '100x100', crop: 'center' }}" 
+                 alt="{{ accessory.title | escape }}"
+                 loading="lazy">
+          </div>
+          
+          <div class="accessory-info">
+            <label for="accessory-{{ accessory.id }}" class="accessory-name">
+              {{ accessory.title }}
+            </label>
+            <span class="accessory-price">{{ accessory.price | money }}</span>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="product-accessories-total" style="display: none;">
+    <span>Total con accesorios: </span>
+    <span class="total-price-display" data-base-price="{{ product.price }}">
+      {{ product.price | money }}
+    </span>
+  </div>
+</div>
+
+<style>
+  .product-accessories-container {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .product-accessories-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  .product-accessory-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .product-accessory-item:last-child {
+    border-bottom: none;
+  }
+  .accessory-image img {
+    border-radius: 4px;
+    display: block;
+  }
+  .accessory-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .accessory-name {
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .accessory-price {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  .product-accessories-total {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 2px solid #ddd;
+    font-weight: bold;
+    text-align: right;
+  }
+</style>
+
+<script src="{{ 'product-accessories.js' | asset_url }}" defer="defer"></script>
+{% endif %}
