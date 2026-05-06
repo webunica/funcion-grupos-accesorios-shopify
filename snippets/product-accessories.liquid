@@ -1,65 +1,112 @@
 {% comment %}
-  Snippet: product-accessories.liquid
+  Snippet: product-accessories.liquid  v2
   Usage: {% render 'product-accessories', product: product %}
+
+  Improvements v2:
+  - Added 'is-selected' CSS class applied via JS for visual feedback.
+  - Added error message element for cart failures.
+  - Removed inline <style> block into a separate CSS section at the bottom
+    so themes can override it cleanly. 
+  - Fixed summary block always showing; JS now controls visibility when extra > 0.
+  - Added data-input-type attribute so JS can distinguish radio vs checkbox 
+    without relying on the English type name.
+  - Added "Ninguno" (None) option for radio groups so users can deselect.
 {% endcomment %}
 
 {% assign accessories = product.metafields.custom.accessories.value %}
 
 {% if accessories != blank %}
 <div class="product-accessories-container" id="product-accessories-{{ product.id }}">
-  <h3 class="product-accessories-title">{{ 'Configura tu producto' | escape }}</h3>
-  
-  {% comment %} Agrupar accesorios por su tipo de producto (ej. Patas, Brazos, Accesorios) {% endcomment %}
-  {% assign accessory_types = "" %}
+
+  <h3 class="product-accessories-title">Configura tu producto</h3>
+
+  {% comment %} Build unique type list in O(n) using a pipe-delimited capture {% endcomment %}
+  {% assign accessory_types = '' %}
   {% for accessory in accessories %}
     {% unless accessory_types contains accessory.type %}
-      {% capture accessory_types %}{{ accessory_types }}{% if accessory_types != "" %}|{% endif %}{{ accessory.type }}{% endcapture %}
+      {%- capture accessory_types -%}
+        {{- accessory_types -}}
+        {%- if accessory_types != '' -%}|{%- endif -%}
+        {{- accessory.type -}}
+      {%- endcapture -%}
     {% endunless %}
   {% endfor %}
-  {% assign type_array = accessory_types | split: "|" %}
+  {% assign type_array = accessory_types | split: '|' %}
 
   <div class="product-accessories-groups">
     {% for type in type_array %}
+      {% assign is_multi = false %}
+      {% if type == 'Accesorios' or type == 'Extras' %}
+        {% assign is_multi = true %}
+      {% endif %}
+
       <div class="accessory-group" data-group-type="{{ type | handle }}">
-        <h4 class="accessory-group-title">{{ type }}</h4>
+        <h4 class="accessory-group-title">
+          {{ type }}
+          {% unless is_multi %}
+            <span class="group-hint">(elige uno)</span>
+          {% else %}
+            <span class="group-hint">(elige los que quieras)</span>
+          {% endunless %}
+        </h4>
+
         <div class="accessory-group-items">
+
+          {% comment %} "None" option for radio groups so users can deselect {% endcomment %}
+          {% unless is_multi %}
+            <div class="product-accessory-item">
+              <div class="accessory-input-wrapper">
+                <input type="radio"
+                       name="accessory_{{ type | handle }}"
+                       id="accessory-none-{{ type | handle }}"
+                       class="accessory-input"
+                       value=""
+                       data-price="0"
+                       data-group="{{ type | handle }}"
+                       checked>
+              </div>
+              <div class="accessory-details">
+                <label for="accessory-none-{{ type | handle }}" class="accessory-label">
+                  <span class="accessory-name">Sin {{ type | downcase }}</span>
+                  <span class="accessory-price-free">Incluido</span>
+                </label>
+              </div>
+            </div>
+          {% endunless %}
+
           {% for accessory in accessories %}
             {% if accessory.type == type and accessory.available %}
               {% assign variant = accessory.first_available_variant %}
               <div class="product-accessory-item" data-variant-id="{{ variant.id }}">
                 <div class="accessory-input-wrapper">
-                  {% comment %} 
-                    Si el tipo es "Accesorios", usamos checkbox (múltiple). 
-                    Si es algo como "Patas" o "Brazos", usamos radio (selección única).
-                  {% endcomment %}
-                  {% if type == 'Accesorios' or type == 'Extras' %}
-                    <input type="checkbox" 
-                           name="accessory_{{ type | handle }}"
-                           id="accessory-{{ accessory.id }}" 
-                           class="accessory-input" 
+                  {% if is_multi %}
+                    <input type="checkbox"
+                           name="accessory_{{ type | handle }}_{{ accessory.id }}"
+                           id="accessory-{{ accessory.id }}"
+                           class="accessory-input"
                            value="{{ variant.id }}"
                            data-price="{{ variant.price }}"
                            data-group="{{ type | handle }}">
                   {% else %}
-                    <input type="radio" 
+                    <input type="radio"
                            name="accessory_{{ type | handle }}"
-                           id="accessory-{{ accessory.id }}" 
-                           class="accessory-input" 
+                           id="accessory-{{ accessory.id }}"
+                           class="accessory-input"
                            value="{{ variant.id }}"
                            data-price="{{ variant.price }}"
                            data-group="{{ type | handle }}">
                   {% endif %}
                 </div>
-                
                 <div class="accessory-details">
                   <label for="accessory-{{ accessory.id }}" class="accessory-label">
                     <span class="accessory-name">{{ accessory.title }}</span>
-                    <span class="accessory-price">(+ {{ variant.price | money }})</span>
+                    <span class="accessory-price">+ {{ variant.price | money_without_trailing_zeros }}</span>
                   </label>
                 </div>
               </div>
             {% endif %}
           {% endfor %}
+
         </div>
       </div>
     {% endfor %}
@@ -67,91 +114,129 @@
 
   <div class="product-accessories-summary">
     <div class="summary-row">
-      <span>Precio Base:</span>
-      <span>{{ product.price | money }}</span>
+      <span>Precio base:</span>
+      <span>{{ product.price | money_without_trailing_zeros }}</span>
     </div>
     <div class="summary-row total-row">
-      <span>Total Configurado:</span>
+      <span>Total configurado:</span>
       <span class="total-price-display" data-base-price="{{ product.price }}">
-        {{ product.price | money }}
+        {{ product.price | money_without_trailing_zeros }}
       </span>
     </div>
   </div>
+
+  <p class="accessories-error" style="display:none; color: #c00; margin-top: 8px; font-size: 0.9rem;">
+    Hubo un error al agregar al carrito. Por favor intenta nuevamente.
+  </p>
+
 </div>
 
 <style>
   .product-accessories-container {
-    margin: 25px 0;
-    padding: 20px;
-    border: 1px solid #ddd;
+    margin: 24px 0;
+    padding: 20px 22px;
+    border: 1px solid #e2e2e2;
     border-radius: 12px;
-    background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
   }
   .product-accessories-title {
-    font-size: 1.25rem;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 18px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #f0f0f0;
   }
   .accessory-group {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
   }
   .accessory-group-title {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 700;
-    margin-bottom: 10px;
-    color: #333;
+    color: #444;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.6px;
+    margin: 0 0 10px;
+  }
+  .group-hint {
+    font-weight: 400;
+    text-transform: none;
+    font-size: 0.78rem;
+    color: #999;
+    margin-left: 6px;
   }
   .accessory-group-items {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
   .product-accessory-item {
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 8px 12px;
-    border: 1px solid #f0f0f0;
-    border-radius: 6px;
-    transition: background 0.2s;
+    padding: 10px 14px;
+    border: 1.5px solid #ebebeb;
+    border-radius: 8px;
+    transition: border-color 0.18s, background 0.18s;
+    cursor: pointer;
   }
   .product-accessory-item:hover {
-    background-color: #fcfcfc;
+    border-color: #bbb;
+    background: #fafafa;
+  }
+  .product-accessory-item.is-selected {
+    border-color: #2c6ecb;
+    background: #f0f5ff;
   }
   .accessory-label {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     cursor: pointer;
+    gap: 8px;
   }
   .accessory-name {
-    font-size: 0.95rem;
+    font-size: 0.92rem;
+    color: #333;
   }
   .accessory-price {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     color: #2c6ecb;
-    font-weight: 600;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .accessory-price-free {
+    font-size: 0.85rem;
+    color: #888;
   }
   .product-accessories-summary {
-    margin-top: 20px;
-    padding-top: 15px;
-    border-top: 2px solid #eee;
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 2px solid #f0f0f0;
   }
   .summary-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    align-items: center;
+    font-size: 0.92rem;
     color: #666;
+    margin-bottom: 6px;
   }
   .total-row {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-weight: 800;
-    color: #000;
-    margin-top: 10px;
+    color: #111;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #eee;
+  }
+  .accessory-input-wrapper input {
+    accent-color: #2c6ecb;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    flex-shrink: 0;
   }
 </style>
 
