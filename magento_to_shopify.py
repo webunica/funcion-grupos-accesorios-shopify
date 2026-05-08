@@ -100,11 +100,16 @@ def main():
 
     shopify_rows = []
     for _, row in unique_acc.iterrows():
-        opt_group = row['_custom_option_title']
-        opt_val   = row['_custom_option_row_title']
+        opt_group = str(row['_custom_option_title']).strip()
+        opt_val   = str(row['_custom_option_row_title']).strip()
         price     = row['_custom_option_row_price']
         handle    = row['_acc_handle']
+        opt_type  = row.get('_custom_option_type', 'drop_down')
         sku_acc   = row['_custom_option_row_sku'] if pd.notna(row['_custom_option_row_sku']) else f"ACC-{slugify(opt_val).upper()}"
+
+        tags = ['accesorio-configurador', 'oculto']
+        if opt_type == 'checkbox':
+            tags.append('config-multi')
 
         shopify_rows.append({
             'Handle': handle,
@@ -112,7 +117,7 @@ def main():
             'Body (HTML)': f"Accesorio opcional de tipo {opt_group}.",
             'Vendor': 'Migración Magento',
             'Type': opt_group,
-            'Tags': 'accesorio-configurador, oculto',
+            'Tags': ", ".join(tags),
             'Published': 'TRUE',
             'Option1 Name': 'Title',
             'Option1 Value': 'Default Title',

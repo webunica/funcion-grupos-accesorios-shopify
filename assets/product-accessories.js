@@ -16,13 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
   const container = document.querySelector('.product-accessories-container');
   if (!container) return;
 
-  const inputs = container.querySelectorAll('.accessory-input');
+  const checkboxes = container.querySelectorAll('.accessory-input');
+  const selects = container.querySelectorAll('.accessory-select');
   const totalDisplay = container.querySelector('.total-price-display');
   const summaryBox = container.querySelector('.product-accessories-summary');
 
   // ── Formatting ────────────────────────────────────────────────────────────
-  // Shopify stores prices in cents. Use Shopify.formatMoney if available.
-  // Fallback formats to Chilean peso (CLP): $ 13.000
   function formatMoney(cents) {
     if (window.Shopify && window.Shopify.formatMoney) {
       return Shopify.formatMoney(cents, window.Shopify.money_format || '${{amount_no_decimals}}');
@@ -36,45 +35,43 @@ document.addEventListener('DOMContentLoaded', function () {
     const basePrice = parseInt(totalDisplay.dataset.basePrice, 10) || 0;
     let extraPrice = 0;
 
-    inputs.forEach(input => {
+    // Sum checkboxes
+    checkboxes.forEach(input => {
       if (input.checked) {
         extraPrice += parseInt(input.dataset.price, 10) || 0;
       }
     });
 
+    // Sum selects
+    selects.forEach(select => {
+      const selectedOption = select.options[select.selectedIndex];
+      if (selectedOption && selectedOption.value !== "") {
+        extraPrice += parseInt(selectedOption.dataset.price, 10) || 0;
+      }
+    });
+
     totalDisplay.textContent = formatMoney(basePrice + extraPrice);
 
-    // Show the summary box only when there's something to add
     if (summaryBox) {
       summaryBox.style.display = extraPrice > 0 ? 'block' : '';
     }
   }
 
-  // ── Visual State ──────────────────────────────────────────────────────────
-  function updateSelectedState(changedInput) {
-    const group = changedInput.dataset.group;
-
-    // For radios: clear 'selected' state from all siblings in the same group
-    if (changedInput.type === 'radio') {
-      inputs.forEach(input => {
-        if (input.dataset.group === group) {
-          input.closest('.product-accessory-item').classList.remove('is-selected');
-        }
-      });
-    }
-
-    if (changedInput.checked) {
-      changedInput.closest('.product-accessory-item').classList.add('is-selected');
-    } else {
-      changedInput.closest('.product-accessory-item').classList.remove('is-selected');
-    }
-  }
-
-  inputs.forEach(input => {
+  // ── Event Listeners ───────────────────────────────────────────────────────
+  checkboxes.forEach(input => {
     input.addEventListener('change', function () {
-      updateSelectedState(this);
+      // Visual feedback for checkboxes
+      if (this.checked) {
+        this.closest('.product-accessory-item').classList.add('is-selected');
+      } else {
+        this.closest('.product-accessory-item').classList.remove('is-selected');
+      }
       updateTotalPrice();
     });
+  });
+
+  selects.forEach(select => {
+    select.addEventListener('change', updateTotalPrice);
   });
 
   // ── AJAX Add to Cart ──────────────────────────────────────────────────────
@@ -84,10 +81,16 @@ document.addEventListener('DOMContentLoaded', function () {
   let isSubmitting = false;
 
   productForm.addEventListener('submit', function (e) {
-    const selectedInputs = Array.from(inputs).filter(i => i.checked);
+    const selectedVariants = [];
+    
+    // Get checked checkboxes
+    checkboxes.forEach(i => { if (i.checked) selectedVariants.push(i.value); });
+    // Get selected options from selects
+    selects.forEach(s => { 
+      if (s.value !== "") selectedVariants.push(s.value); 
+    });
 
-    // If no accessories are selected, let the form submit normally
-    if (selectedInputs.length === 0) return;
+    if (selectedVariants.length === 0) return;
 
     e.preventDefault();
     if (isSubmitting) return;
@@ -96,6 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const submitBtn = productForm.querySelector('[type="submit"]');
     if (submitBtn) {
       submitBtn.disabled = true;
+      const originalText = submitBtn.textContent;
       submitBtn.textContent = 'Agregando...';
     }
 
@@ -104,9 +108,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const mainQty = parseInt(formData.get('quantity') || 1, 10);
 
     const items = [{ id: mainId, quantity: mainQty }];
-
-    selectedInputs.forEach(input => {
-      items.push({ id: input.value, quantity: 1 });
+    selectedVariants.forEach(id => {
+      items.push({ id: id, quantity: 1 });
     });
 
     fetch('/cart/add.js', {
@@ -122,13 +125,12 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = '/cart';
       })
       .catch(error => {
-        console.error('[product-accessories] Error adding to cart:', error);
+        console.error('[product-accessories] Error:', error);
         isSubmitting = false;
         if (submitBtn) {
           submitBtn.disabled = false;
           submitBtn.textContent = 'Agregar al carrito';
         }
-        // Show user-friendly error
         const msg = container.querySelector('.accessories-error');
         if (msg) msg.style.display = 'block';
       });

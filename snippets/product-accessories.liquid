@@ -35,14 +35,28 @@
 
   <div class="product-accessories-groups">
     {% for type in type_array %}
+      {% assign normalized_type = type | strip %}
+      
+      {% comment %} Detect if this group should be multi-select based on tags {% endcomment %}
       {% assign is_multi = false %}
-      {% if type == 'Accesorios' or type == 'Extras' %}
+      {% for acc in accessories %}
+        {% assign acc_type = acc.type | strip %}
+        {% if acc_type == normalized_type %}
+          {% if acc.tags contains 'config-multi' %}
+            {% assign is_multi = true %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% comment %} Fallback for common types if tags are missing {% endcomment %}
+      {% if normalized_type == 'Accesorios' or normalized_type == 'Extras' %}
         {% assign is_multi = true %}
       {% endif %}
 
-      <div class="accessory-group" data-group-type="{{ type | handle }}">
+      <div class="accessory-group" data-group-type="{{ normalized_type | handle }}">
         <h4 class="accessory-group-title">
-          {{ type }}
+          {{ normalized_type }}
           {% unless is_multi %}
             <span class="group-hint">(elige uno)</span>
           {% else %}
@@ -51,62 +65,49 @@
         </h4>
 
         <div class="accessory-group-items">
-
-          {% comment %} "None" option for radio groups so users can deselect {% endcomment %}
-          {% unless is_multi %}
-            <div class="product-accessory-item">
-              <div class="accessory-input-wrapper">
-                <input type="radio"
-                       name="accessory_{{ type | handle }}"
-                       id="accessory-none-{{ type | handle }}"
-                       class="accessory-input"
-                       value=""
-                       data-price="0"
-                       data-group="{{ type | handle }}"
-                       checked>
-              </div>
-              <div class="accessory-details">
-                <label for="accessory-none-{{ type | handle }}" class="accessory-label">
-                  <span class="accessory-name">Sin {{ type | downcase }}</span>
-                  <span class="accessory-price-free">Incluido</span>
-                </label>
-              </div>
-            </div>
-          {% endunless %}
-
-          {% for accessory in accessories %}
-            {% if accessory.type == type and accessory.available %}
-              {% assign variant = accessory.first_available_variant %}
-              <div class="product-accessory-item" data-variant-id="{{ variant.id }}">
-                <div class="accessory-input-wrapper">
-                  {% if is_multi %}
+          {% if is_multi %}
+            {% comment %} Multi-selection using checkboxes {% endcomment %}
+            <div class="accessory-checkbox-list">
+              {% for accessory in accessories %}
+                {% assign current_acc_type = accessory.type | strip %}
+                {% if current_acc_type == normalized_type and accessory.available %}
+                  {% assign variant = accessory.first_available_variant %}
+                  <div class="product-accessory-item checkbox-item" data-variant-id="{{ variant.id }}">
                     <input type="checkbox"
-                           name="accessory_{{ type | handle }}_{{ accessory.id }}"
+                           name="accessory_{{ normalized_type | handle }}_{{ accessory.id }}"
                            id="accessory-{{ accessory.id }}"
                            class="accessory-input"
                            value="{{ variant.id }}"
                            data-price="{{ variant.price }}"
-                           data-group="{{ type | handle }}">
-                  {% else %}
-                    <input type="radio"
-                           name="accessory_{{ type | handle }}"
-                           id="accessory-{{ accessory.id }}"
-                           class="accessory-input"
-                           value="{{ variant.id }}"
-                           data-price="{{ variant.price }}"
-                           data-group="{{ type | handle }}">
-                  {% endif %}
-                </div>
-                <div class="accessory-details">
-                  <label for="accessory-{{ accessory.id }}" class="accessory-label">
-                    <span class="accessory-name">{{ accessory.title }}</span>
-                    <span class="accessory-price">+ {{ variant.price | money_without_trailing_zeros }}</span>
-                  </label>
-                </div>
-              </div>
-            {% endif %}
-          {% endfor %}
+                           data-group="{{ normalized_type | handle }}">
+                    <label for="accessory-{{ accessory.id }}" class="accessory-label">
+                      <span class="accessory-name">{{ accessory.title | split: ': ' | last }}</span>
+                      <span class="accessory-price">+ {{ variant.price | money_without_trailing_zeros }}</span>
+                    </label>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
 
+          {% else %}
+            {% comment %} Single-selection using a Select Dropdown (Magento style) {% endcomment %}
+            <div class="accessory-select-wrapper">
+              <select class="accessory-select" 
+                      name="accessory_{{ normalized_type | handle }}" 
+                      data-group="{{ normalized_type | handle }}">
+                <option value="" data-price="0">-- Selecciona {{ normalized_type }} --</option>
+                {% for accessory in accessories %}
+                  {% assign current_acc_type = accessory.type | strip %}
+                  {% if current_acc_type == normalized_type and accessory.available %}
+                    {% assign variant = accessory.first_available_variant %}
+                    <option value="{{ variant.id }}" data-price="{{ variant.price }}">
+                      {{ accessory.title | split: ': ' | last }} (+ {{ variant.price | money_without_trailing_zeros }})
+                    </option>
+                  {% endif %}
+                {% endfor %}
+              </select>
+            </div>
+          {% endif %}
         </div>
       </div>
     {% endfor %}
@@ -170,21 +171,39 @@
     flex-direction: column;
     gap: 8px;
   }
-  .product-accessory-item {
+  .accessory-select-wrapper select {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid #ebebeb;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .accessory-select-wrapper select:focus {
+    border-color: #2c6ecb;
+  }
+  .accessory-checkbox-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .product-accessory-item.checkbox-item {
     display: flex;
     align-items: center;
     gap: 12px;
     padding: 10px 14px;
     border: 1.5px solid #ebebeb;
     border-radius: 8px;
-    transition: border-color 0.18s, background 0.18s;
     cursor: pointer;
   }
-  .product-accessory-item:hover {
-    border-color: #bbb;
-    background: #fafafa;
+  .product-accessory-item.checkbox-item input {
+    margin: 0;
   }
-  .product-accessory-item.is-selected {
+  .product-accessory-item.checkbox-item.is-selected {
     border-color: #2c6ecb;
     background: #f0f5ff;
   }
