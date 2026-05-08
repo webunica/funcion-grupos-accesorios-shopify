@@ -84,7 +84,7 @@ def main():
 
     # ── 2. Accesorios únicos ──────────────────────────────────────────────────
     print("\nExtrayendo accesorios únicos...")
-    acc_mask = df['_custom_option_row_title'].notna() & (df['_custom_option_row_price'] > 0)
+    acc_mask = df['_custom_option_row_title'].notna() & (df['_custom_option_row_price'] >= 0)
     accessories_df = df[acc_mask].copy()
 
     # Para duplicados (mismo grupo + título), usamos el PRECIO MÍNIMO
@@ -139,7 +139,7 @@ def main():
     for _, row in df.iterrows():
         if pd.notna(row['sku']):
             current_sku = row['sku']
-        if pd.notna(row['_custom_option_row_title']) and row['_custom_option_row_price'] > 0:
+        if pd.notna(row['_custom_option_row_title']) and row['_custom_option_row_price'] >= 0:
             mapping_rows.append({
                 'Parent_SKU':        current_sku,
                 'Parent_Handle':     sku_to_handle.get(str(current_sku), ''),
@@ -168,7 +168,7 @@ def main():
             flush_acc()
             current_handle = row['url_key']
             current_acc    = []
-        if pd.notna(row['_custom_option_row_title']) and row['_custom_option_row_price'] > 0:
+        if pd.notna(row['_custom_option_row_title']) and row['_custom_option_row_price'] >= 0:
             current_acc.append(build_acc_handle(row['_custom_option_title'], row['_custom_option_row_title']))
 
     flush_acc()

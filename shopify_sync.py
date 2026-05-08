@@ -103,7 +103,7 @@ def link_accessories(df, handle_to_id):
             current_handle = row['url_key']
             if current_handle not in parent_map: parent_map[current_handle] = []
         
-        if pd.notna(row['_custom_option_row_title']) and row['_custom_option_row_price'] > 0:
+        if pd.notna(row['_custom_option_row_title']) and row['_custom_option_row_price'] >= 0:
             acc_h = build_acc_handle(row['_custom_option_title'], row['_custom_option_row_title'])
             if acc_h in handle_to_id:
                 parent_map[current_handle].append(acc_h)  # store handle directly
@@ -143,7 +143,7 @@ def main():
     df['_custom_option_row_price'] = pd.to_numeric(df['_custom_option_row_price'], errors='coerce').fillna(0)
 
     # Detect unique accessories
-    acc_mask = df['_custom_option_row_title'].notna() & (df['_custom_option_row_price'] > 0)
+    acc_mask = df['_custom_option_row_title'].notna() & (df['_custom_option_row_price'] >= 0)
     accessories_df = df[acc_mask].copy()
     accessories_df['_acc_handle'] = accessories_df.apply(
         lambda r: build_acc_handle(r['_custom_option_title'], r['_custom_option_row_title']), axis=1
