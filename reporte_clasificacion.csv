@@ -1,0 +1,646 @@
+handle,title,tipo_actual,tipo_nuevo,accion
+acc-accesorio-base-aluminio,Accesorio: Base Aluminio,Accesorio,Accesorio,sin cambio
+acc-accesorio-revistero,Accesorio: Revistero,Accesorio,Extra,✅ Actualizado
+acc-accesorios-apoyo-lumbar,Accesorios: Apoyo Lumbar,Accesorios,Extra,✅ Actualizado
+acc-accesorios-base-nylon,Accesorios: Base nylon,Accesorios,Extra,✅ Actualizado
+acc-accesorios-par-brazos-aluminio-barnizado-negro-con-pad-negro,ACCESORIOS: Par Brazos aluminio barnizado negro con Pad Negro,ACCESORIOS,Extra,✅ Actualizado
+acc-accesorios-patin-negro,Accesorios: Patín Negro,Accesorios,Extra,✅ Actualizado
+acc-accesorios-patines-negros-en-vez-de-ruedas,Accesorios: Patínes Negros en vez de ruedas,Accesorios,Extra,✅ Actualizado
+acc-adicional-sin-rejilla,ADICIONAL: Sin rejilla,ADICIONAL,ADICIONAL,sin cambio
+acc-adicional-sin-rejilla-universitaria,ADICIONAL: Sin Rejilla Universitaria,ADICIONAL,ADICIONAL,sin cambio
+acc-adicionales-cabecero,Adicionales: Cabecero,Adicionales,Adicionales,sin cambio
+acc-altura-alto-76-cm,ALTURA: Alto 76 cm,ALTURA,ALTURA,sin cambio
+acc-altura-altura-67-cm,Altura: Altura 67 cm,Altura,Altura,sin cambio
+acc-aro-apoya-pies-aro-cromado,ARO APOYA PIES: Aro Cromado,ARO APOYA PIES,ARO APOYA PIES,sin cambio
+acc-aro-apoya-pies-aro-negro,Aro Apoya Pies: Aro negro,Aro Apoya Pies,Aro Apoya Pies,sin cambio
+acc-aro-apoya-pies-aro-nylon-negro,Aro Apoya Pies: Aro Nylon Negro,Aro Apoya Pies,Aro Apoya Pies,sin cambio
+acc-aro-aro-nylon,ARO: Aro Nylon,ARO,ARO,sin cambio
+acc-asiento-tapizado-cojin-tapizado-en-tela-verona,Asiento tapizado: Cojín tapizado en tela Verona,Asiento tapizado,Color Tapiz,✅ Actualizado
+acc-banqueta-color-amarillo,Banqueta Color: Amarillo,Banqueta Color,Color Respaldo,✅ Actualizado
+acc-base-estrella-y-aro-apoya-pies-sin-aro,Base estrella y Aro Apoya Pies: Sin aro,Base estrella y Aro Apoya Pies,Base estrella y Aro Apoya Pies,sin cambio
+acc-base-patas-patin,BASE PATAS: Patin,BASE PATAS,BASE PATAS,sin cambio
+acc-base-patas-patines,Base patas: Patines,Base patas,Base patas,sin cambio
+acc-base-poltrona-base-4-patas,Base Poltrona: Base 4 patas,Base Poltrona,Base Poltrona,sin cambio
+acc-base-base-aluminio,Base: Base Aluminio,Base,Base,sin cambio
+acc-base-base-cromada,BASE: Base Cromada,BASE,BASE,sin cambio
+acc-base-base-negra,Base: Base Negra,Base,Base,sin cambio
+acc-base-base-nylon,Base: Base Nylon,Base,Base,sin cambio
+acc-brazo-incluir-brazo-opuesto-a-paleta,Brazo: Incluir Brazo Opuesto a Paleta,Brazo,Brazos,✅ Actualizado
+acc-brazos-1-brazo-con-paleta,Brazos: 1 Brazo con Paleta,Brazos,Brazos,sin cambio
+acc-brazos-brazo-regulable-2d,Brazos: Brazo Regulable 2D,Brazos,Brazos,sin cambio
+acc-brazos-brazo-regulable-pp-2d,Brazos: Brazo Regulable PP 2D,Brazos,Brazos,sin cambio
+acc-brazos-brazos-fijos-golf-pp,Brazos: Brazos Fijos Golf PP,Brazos,Brazos,sin cambio
+acc-brazos-brazos-regulables-2d-tpu,Brazos: Brazos Regulables 2D  TPU,Brazos,Brazos,sin cambio
+acc-brazos-brazos-regulables-2d-pu,Brazos: Brazos Regulables 2D PU,Brazos,Brazos,sin cambio
+acc-brazos-con-brazos,Brazos: Con brazos,Brazos,Brazos,sin cambio
+acc-brazos-sin-brazo,Brazos: Sin Brazo,Brazos,Brazos,sin cambio
+acc-brazos-sin-brazos,Brazos: Sin Brazos,Brazos,Brazos,sin cambio
+acc-cabecero-con-cabecero,CABECERO: Con cabecero,CABECERO,CABECERO,sin cambio
+acc-cabecero-sin-cabecero,CABECERO: Sin cabecero,CABECERO,CABECERO,sin cambio
+acc-color-asiento-indicar-segun-muestrario-ecocuero,Color Asiento Indicar Según Muestrario: Ecocuero,Color Asiento Indicar Según Muestrario,Color Tapiz,✅ Actualizado
+acc-color-asiento-segun-muestrario-tela-escocia-azul-arrecife,Color Asiento Según Muestrario: Tela Escocia Azul Arrecife,Color Asiento Según Muestrario,Color Tapiz,✅ Actualizado
+acc-color-asiento-y-respaldo-segun-muestrario-ecocuero-verde-pistacho,Color Asiento y Respaldo Según Muestrario: Ecocuero Verde Pistacho,Color Asiento y Respaldo Según Muestrario,Color Tapiz,✅ Actualizado
+acc-color-asiento-y-respaldo-azul,Color Asiento y Respaldo: Azul,Color Asiento y Respaldo,Color Respaldo,✅ Actualizado
+acc-color-asiento-alumino-mt,Color Asiento: Alumino MT,Color Asiento,Color Asiento,sin cambio
+acc-color-asiento-blanco,COLOR ASIENTO: Blanco,COLOR ASIENTO,Color Respaldo,✅ Actualizado
+acc-color-cubierta-escritorio-ver-muestrario-alumnia,Color Cubierta Escritorio (Ver Muestrario): Alumnia,Color Cubierta Escritorio (Ver Muestrario),Color Cubierta Escritorio (Ver Muestrario),sin cambio
+acc-color-cubierta-escritorio-ver-muestrario-cerezo-agreste,Color Cubierta Escritorio (Ver Muestrario): Cerezo Agreste,Color Cubierta Escritorio (Ver Muestrario),Color Cubierta Escritorio (Ver Muestrario),sin cambio
+acc-color-cubierta-escritorio-ver-muestrario-vainilla,Color Cubierta Escritorio (Ver Muestrario): Vainilla,Color Cubierta Escritorio (Ver Muestrario),Color Cubierta Escritorio (Ver Muestrario),sin cambio
+acc-color-cubierta-cubierta-blanca,color cubierta: Cubierta Blanca,color cubierta,color cubierta,sin cambio
+acc-color-cubierta-negro,Color CUBIERTA: Negro,Color CUBIERTA,Color CUBIERTA,sin cambio
+acc-color-de-asiento-en-polipropileno-arena,Color de Asiento en Polipropileno: Arena,Color de Asiento en Polipropileno,Color de Asiento en Polipropileno,sin cambio
+acc-color-de-respaldo-en-polipropileno-arena,Color de Respaldo en Polipropileno: Arena,Color de Respaldo en Polipropileno,Color de Respaldo en Polipropileno,sin cambio
+acc-color-estructura-metalica-blanco,Color Estructura Metálica: Blanco,Color Estructura Metálica,Color Respaldo,✅ Actualizado
+acc-color-estructura-metalica-blanco-mt,Color Estructura Metálica: Blanco MT,Color Estructura Metálica,Color Respaldo,✅ Actualizado
+acc-color-laminado-vainilla,Color Laminado: Vainilla,Color Laminado,Color Laminado,sin cambio
+acc-color-pata-gris,Color Pata: Gris,Color Pata,Color Respaldo,✅ Actualizado
+acc-color-patas-gris-oscuro,Color Patas: Gris Oscuro,Color Patas,Color Respaldo,✅ Actualizado
+acc-color-patas-pata-cromada,Color Patas: Pata Cromada,Color Patas,Patas,✅ Actualizado
+acc-color-patas-patas-cromadas,Color Patas: Patas cromadas,Color Patas,Color Patas,sin cambio
+acc-color-pedestal-metalico-blanco-mt,Color Pedestal  Metálico: Blanco MT,Color Pedestal Metálico,Color Respaldo,✅ Actualizado
+acc-color-plastico-externo-blanco,Color Plástico Externo: Blanco,Color Plástico Externo,Color Respaldo,✅ Actualizado
+acc-color-plastico-respaldo-blanco,Color Plástico Respaldo: Blanco,Color Plástico Respaldo,Color Respaldo,✅ Actualizado
+acc-color-plastico-azul,Color Plastico: Azul,Color Plastico,Color Respaldo,✅ Actualizado
+acc-color-plasticos-amarillo,Color Plásticos: Amarillo,Color Plásticos,Color Respaldo,✅ Actualizado
+acc-color-plasticos-verde,Color Plásticos: Verde,Color Plásticos,Color Respaldo,✅ Actualizado
+acc-color-polipropileno-arena,Color Polipropileno: Arena,Color Polipropileno,Color Polipropileno,sin cambio
+acc-color-polipropileno-azul,Color Polipropileno: Azul,Color Polipropileno,Color Respaldo,✅ Actualizado
+acc-color-polipropileno-blanco,Color Polipropileno: Blanco,Color Polipropileno,Color Respaldo,✅ Actualizado
+acc-color-polipropileno-gris,Color Polipropileno: Gris,Color Polipropileno,Color Respaldo,✅ Actualizado
+acc-color-polipropileno-negro,Color Polipropileno: Negro,Color Polipropileno,Color Polipropileno,sin cambio
+acc-color-respaldo-malla-azul,Color Respaldo Malla: Azul,Color Respaldo Malla,Color Respaldo,✅ Actualizado
+acc-color-respaldo-plastico-celeste,Color Respaldo plástico: Celeste,Color Respaldo plástico,Color Respaldo plástico,sin cambio
+acc-color-respaldo-polipropileno-azul,Color Respaldo Polipropileno: Azul,Color Respaldo Polipropileno,Color Respaldo,✅ Actualizado
+acc-color-respaldo-polipropileno-gris,Color Respaldo Polipropileno: Gris,Color Respaldo Polipropileno,Color Respaldo,✅ Actualizado
+acc-color-respaldo-blanco,Color Respaldo: Blanco,Color Respaldo,Color Respaldo,sin cambio
+acc-color-respaldo-negro,Color Respaldo: Negro,Color Respaldo,Color Respaldo,sin cambio
+acc-color-segun-muestrario-ecocuero-verde-pistacho,Color Según Muestrario: Ecocuero Verde Pistacho,Color Según Muestrario,Color Tapiz,✅ Actualizado
+acc-color-tapiz-asiento-y-respaldo-ecocuero-azul-electrico,Color Tapiz Asiento y Respaldo: Ecocuero Azul Eléctrico,Color Tapiz Asiento y Respaldo,Color Tapiz,✅ Actualizado
+acc-color-tapiz-asiento-ecocuero-azul-electrico,Color Tapiz Asiento: Ecocuero Azul Eléctrico,Color Tapiz Asiento,Color Tapiz,✅ Actualizado
+acc-color-tapiz-ecocuero-azul-electrico,Color Tapiz: Ecocuero Azul Eléctrico,Color Tapiz,Color Tapiz,sin cambio
+acc-color-aarena,Color: Aarena,Color,Color,sin cambio
+acc-color-amarillo,Color: Amarillo,Color,Color Respaldo,✅ Actualizado
+acc-color-arena,Color: Arena,Color,Color,sin cambio
+acc-color-azul,Color: Azul,Color,Color Respaldo,✅ Actualizado
+acc-color-azulino,Color: Azulino,Color,Color,sin cambio
+acc-color-beige,Color: Beige,Color,Color,sin cambio
+acc-color-blanco,Color: Blanco,Color,Color Respaldo,✅ Actualizado
+acc-color-grafito,Color: Grafito,Color,Color,sin cambio
+acc-color-gris,Color: Gris,Color,Color Respaldo,✅ Actualizado
+acc-color-gris-claro,Color: Gris claro,Color,Color Respaldo,✅ Actualizado
+acc-color-negro-agotado,Color: Negro agotado,Color,Color,sin cambio
+acc-color-petroleo,Color: Petroleo,Color,Color,sin cambio
+acc-color-rojo,Color: Rojo,Color,Color Respaldo,✅ Actualizado
+acc-color-tortora,Color: Tortora,Color,Color,sin cambio
+acc-colores-asiento-azul,COLORES ASIENTO: Azul,COLORES ASIENTO,Color Respaldo,✅ Actualizado
+acc-colores-plastico-azul,Colores plástico: Azul,Colores plástico,Color Respaldo,✅ Actualizado
+acc-colores-segun-muestrario-ecocuero-verde-pistacho,Colores Según Muestrario: Ecocuero Verde Pistacho,Colores Según Muestrario,Color Tapiz,✅ Actualizado
+acc-colores-agave,Colores: Agave,Colores,Colores,sin cambio
+acc-colores-azul,COLORES: Azul,COLORES,Color Respaldo,✅ Actualizado
+acc-colores-beige,COLORES: Beige,COLORES,COLORES,sin cambio
+acc-colores-blanco,Colores: Blanco,Colores,Color Respaldo,✅ Actualizado
+acc-colores-corallo,COLORES: Corallo,COLORES,COLORES,sin cambio
+acc-colores-grafito,Colores: Grafito,Colores,Colores,sin cambio
+acc-colores-gris,COLORES: Gris,COLORES,Color Respaldo,✅ Actualizado
+acc-colores-mostaza,COLORES: Mostaza,COLORES,COLORES,sin cambio
+acc-colores-rojo,Colores: Rojo,Colores,Color Respaldo,✅ Actualizado
+acc-componente-adicional-base-aluminio,COMPONENTE ADICIONAL: Base Aluminio,COMPONENTE ADICIONAL,COMPONENTE ADICIONAL,sin cambio
+acc-componentes-adicionales-cabecero,COMPONENTES ADICIONALES: Cabecero,COMPONENTES ADICIONALES,COMPONENTES ADICIONALES,sin cambio
+acc-cubierta-sin-cubierta,Cubierta: Sin Cubierta,Cubierta,Cubierta,sin cambio
+acc-cuerpos-1-cuerpo,Cuerpos: 1 Cuerpo,Cuerpos,Cuerpos,sin cambio
+acc-cuerpos-2,Cuerpos: 2,Cuerpos,Cuerpos,sin cambio
+acc-cuerpos-2-cuerpos,Cuerpos: 2 Cuerpos,Cuerpos,Cuerpos,sin cambio
+acc-diametro-cubierta-45-cm,DIAMETRO CUBIERTA: 45 CM,DIAMETRO CUBIERTA,DIAMETRO CUBIERTA,sin cambio
+acc-diametro-60-cms-de-diametro,Diametro: 60 cms de  Diámetro,Diametro,Diametro,sin cambio
+acc-entrega-de-la-silla-armada-no,entrega de la silla armada: No,entrega de la silla armada,entrega de la silla armada,sin cambio
+acc-entrega-de-silla-armada-solo-en-rm-no,entrega de silla armada (solo en RM): No,entrega de silla armada (solo en RM),entrega de silla armada (solo en RM),sin cambio
+acc-entrega-de-silla-armada-no,entrega de silla armada: No,entrega de silla armada,entrega de silla armada,sin cambio
+acc-escritorio-medidas-cubierta-110-cm-ancho-x-60-cm-profundidad,Escritorio Medidas Cubierta: 110 cm Ancho x 60 cm Profundidad,Escritorio Medidas Cubierta,Escritorio Medidas Cubierta,sin cambio
+acc-estructura-base-estructura-pintada,Estructura base: Estructura pintada,Estructura base,Estructura base,sin cambio
+acc-estructura-4-patas-negras,Estructura: 4 Patas Negras,Estructura,Estructura,sin cambio
+acc-estructura-cromada,Estructura: Cromada,Estructura,Estructura,sin cambio
+acc-estructura-estructura-negra,Estructura: Estructura Negra,Estructura,Estructura,sin cambio
+acc-extra-revistero,EXTRA: Revistero,EXTRA,Extra,✅ Actualizado
+acc-extras-cabecero,Extras: Cabecero,Extras,Extra,✅ Actualizado
+acc-general-1-brazo-con-paleta,General: 1 Brazo con Paleta,General,Brazos,✅ Actualizado
+acc-general-1-cuerpo,General: 1 Cuerpo,General,Cuerpos,✅ Actualizado
+acc-general-12-mts-ancho-x-06-mts-profundidad,"General: 1,2 mts Ancho x 0,6 mts Profundidad",General,General,sin cambio
+acc-general-12-mts-ancho-x-60-cm-profundidad,"General: 1,2 mts Ancho x 60 cm Profundidad",General,General,sin cambio
+acc-general-13-mts-ancho-x-06-mts-profundidad,"General: 1,3 mts ancho x 0,6 mts profundidad",General,General,sin cambio
+acc-general-13-mts-ancho-x-60-cm-profundidad,"General: 1,3 mts Ancho x 60 cm Profundidad",General,General,sin cambio
+acc-general-14-mts-ancho-x-06-mts-profundidad,"General: 1,4 mts Ancho x 0,6 mts Profundidad",General,General,sin cambio
+acc-general-14-mts-ancho-x-60-cm-profundidad,"General: 1,4 mts Ancho x 60 cm Profundidad",General,General,sin cambio
+acc-general-15-mts-ancho-x-06-mts-profundidad,"General: 1,5  mts Ancho x 0,6 mts Profundidad",General,General,sin cambio
+acc-general-15-mts-ancho-x-70-cm-profundidad,"General: 1,5 mts Ancho x 70 cm Profundidad",General,General,sin cambio
+acc-general-15-x-14-mts-06x-05-mts-profundidad,"General: 1,5 x 1,4 mts / 0,6x 0,5 mts Profundidad",General,General,sin cambio
+acc-general-16-mts-ancho-x-07-mts-profundidad,"General: 1,6 mts Ancho x 0,7 mts Profundidad",General,General,sin cambio
+acc-general-16-mts-ancho-x-70-cm-profundidad,"General: 1,6 mts Ancho x 70 cm Profundidad",General,General,sin cambio
+acc-general-16-x-15-mts-06x-05-mts-profundidad,"General: 1,6 x 1,5 mts / 0,6x 0,5 mts Profundidad",General,General,sin cambio
+acc-general-17-mts-ancho-x-07-mts-profundidad,"General: 1,7 mts Ancho x 0,7 mts Profundidad",General,General,sin cambio
+acc-general-17-mts-ancho-x-70-cm-profundidad,"General: 1,7 mts Ancho x 70 cm Profundidad",General,General,sin cambio
+acc-general-17-x-16-mts-07x-06-mts-profundidad,"General: 1,7 x 1,6 mts / 0,7x 0,6 mts Profundidad",General,General,sin cambio
+acc-general-100-cm,General: 100 CM,General,General,sin cambio
+acc-general-100-cms-de-diametro,General: 100 cms de  Diámetro,General,General,sin cambio
+acc-general-110-cm-ancho-x-60-cm-profundidad,General: 110 cm Ancho x 60 cm Profundidad,General,General,sin cambio
+acc-general-120-cm-ancho-x-60-cm-profundidad,General: 120 cm Ancho x 60 cm Profundidad,General,General,sin cambio
+acc-general-130-cm-ancho-x-60-cm-profundidad,General: 130 cm Ancho x 60 cm Profundidad,General,General,sin cambio
+acc-general-140-cm-ancho-x-60-cm-profundidad,General: 140 cm Ancho x 60 cm Profundidad,General,General,sin cambio
+acc-general-150-cm-ancho-x-60-cm-profundidad,General: 150 cm Ancho x 60 cm Profundidad,General,General,sin cambio
+acc-general-160-cm-ancho-x-60-cm-profundidad,General: 160 cm Ancho x 60 cm Profundidad,General,General,sin cambio
+acc-general-170-cm-ancho-x-60-cm-profundidad,General: 170 cm Ancho x 60 cm Profundidad,General,General,sin cambio
+acc-general-2,General: 2,General,Cuerpos,✅ Actualizado
+acc-general-2-brazos-mas-paleta,General: 2 Brazos mas paleta,General,General,sin cambio
+acc-general-2-cajoneras-movil-laminada-3-cajones,General: 2 Cajoneras Móvil Laminada 3 Cajones,General,General,sin cambio
+acc-general-2-cuerpo,General: 2 Cuerpo,General,Cuerpos,✅ Actualizado
+acc-general-2-cuerpos,General: 2 Cuerpos,General,Cuerpos,✅ Actualizado
+acc-general-24-mts-ancho-x-12-mts-profundidad-puesto-de-12-mts-ancho-por-60-cm-profundidad,"General: 2,4 mts Ancho x 1,2 mts Profundidad (Puesto de 1,2 mts ancho por 60 cm profundidad)",General,General,sin cambio
+acc-general-26-mts-ancho-x-12-mts-profundidad-puesto-de-13-mts-ancho-por-60-cm-profundidad,"General: 2,6 mts Ancho x 1,2 mts Profundidad (Puesto de 1,3 mts ancho por 60 cm profundidad)",General,General,sin cambio
+acc-general-28-mts-ancho-x-12-mts-profundidad-puesto-de-14-mts-ancho-por-60-cm-profundidad,"General: 2,8 mts Ancho x 1,2 mts Profundidad (Puesto de 1,4 mts ancho por 60 cm profundidad)",General,General,sin cambio
+acc-general-3,General: 3,General,Cuerpos,✅ Actualizado
+acc-general-3-cuerpo,General: 3 Cuerpo,General,Cuerpos,✅ Actualizado
+acc-general-3-cuerpos,General: 3 Cuerpos,General,Cuerpos,✅ Actualizado
+acc-general-30-mts-ancho-x-14-mts-profundidad-puesto-de-15-mts-ancho-por-70-cm-profundidad,"General: 3,0 mts Ancho x 1,4 mts Profundidad (Puesto de 1,5 mts ancho por 70 cm profundidad)",General,General,sin cambio
+acc-general-32-mts-ancho-x-14-mts-profundidad-puesto-de-16-mts-ancho-por-70-cm-profundidad,"General: 3,2 mts Ancho x 1,4 mts Profundidad (Puesto de 1,6 mts ancho por 70 cm profundidad)",General,General,sin cambio
+acc-general-34-mts-ancho-x-14-mts-profundidad-puesto-de-17-mts-ancho-por-70-cm-profundidad,"General: 3,4 mts Ancho x 1,4 mts Profundidad (Puesto de 1,7 mts ancho por 70 cm profundidad)",General,General,sin cambio
+acc-general-36-mts-ancho-x-12-mts-profundidad-puesto-de-12-mts-ancho-por-60cm-profundidad,"General: 3,6 mts Ancho x 1,2 mts Profundidad (Puesto de 1,2 mts ancho por 60cm profundidad)",General,General,sin cambio
+acc-general-39-mts-ancho-x-12-mts-profundidad-puesto-de-13-mts-ancho-por-60cm-profundidad,"General: 3,9 mts Ancho x 1,2 mts Profundidad (Puesto de 1,3 mts ancho por 60cm profundidad)",General,General,sin cambio
+acc-general-4,General: 4,General,Cuerpos,✅ Actualizado
+acc-general-4-cajoneras-movil-laminada-3-con-cajones,General: 4 Cajoneras Móvil Laminada 3 con Cajones,General,General,sin cambio
+acc-general-4-cuerpos,General: 4 Cuerpos,General,Cuerpos,✅ Actualizado
+acc-general-4-patas-cromadas,General: 4 Patas Cromadas,General,General,sin cambio
+acc-general-4-patas-negras,General: 4 Patas Negras,General,General,sin cambio
+acc-general-42-mts-ancho-x-12-mts-profundidad-puesto-de-14-mts-ancho-por-60cm-profundidad,"General: 4,2 mts Ancho x 1,2 mts Profundidad (Puesto de 1,4 mts ancho por 60cm profundidad)",General,General,sin cambio
+acc-general-45-mts-ancho-x-14-mts-profundidad-puesto-de-15-mts-ancho-por-70cm-profundidad,"General: 4,5 mts Ancho x 1,4 mts Profundidad (Puesto de 1,5 mts ancho por 70cm profundidad)",General,General,sin cambio
+acc-general-48-mts-ancho-x-14-mts-profundidad-puesto-de-16-mts-ancho-por-70cm-profundidad,"General: 4,8 mts Ancho x 1,4 mts Profundidad (Puesto de 1,6 mts ancho por 70cm profundidad)",General,General,sin cambio
+acc-general-45-cm,General: 45 CM,General,General,sin cambio
+acc-general-5,General: 5,General,Cuerpos,✅ Actualizado
+acc-general-5-cuerpos,General: 5 Cuerpos,General,Cuerpos,✅ Actualizado
+acc-general-51-mts-ancho-x-14-mts-profundidad-puesto-de-17-mts-ancho-por-70cm-profundidad,"General: 5,1 mts Ancho x 1,4 mts Profundidad (Puesto de 1,7 mts ancho por 70cm profundidad)",General,General,sin cambio
+acc-general-6,General: 6,General,Cuerpos,✅ Actualizado
+acc-general-60-cm,General: 60 CM,General,General,sin cambio
+acc-general-60-cms-de-diametro,General: 60 cms de  Diámetro,General,General,sin cambio
+acc-general-70-cms-de-diametro,General: 70 cms de  Diámetro,General,General,sin cambio
+acc-general-80-cms-de-diametro,General: 80 cms de  Diámetro,General,General,sin cambio
+acc-general-90-cms-de-diametro,General: 90 cms de  Diámetro,General,General,sin cambio
+acc-general-a1-negra-agotada,General: A1. Negra (agotada),General,General,sin cambio
+acc-general-a3-gris,General: A3. Gris,General,Color Respaldo,✅ Actualizado
+acc-general-aarena,General: Aarena,General,General,sin cambio
+acc-general-agave,General: Agave,General,General,sin cambio
+acc-general-alto,General: Alto,General,General,sin cambio
+acc-general-alto-76-cm,General: Alto 76 cm,General,General,sin cambio
+acc-general-altura-67-cm,General: Altura 67 cm,General,General,sin cambio
+acc-general-altura-77-cm,General: Altura 77 cm,General,General,sin cambio
+acc-general-aluminio-mt,General: Aluminio MT,General,General,sin cambio
+acc-general-alumino-mt,General: Alumino MT,General,General,sin cambio
+acc-general-alumnia,General: Alumnia,General,General,sin cambio
+acc-general-amarillo,General: Amarillo,General,Color Respaldo,✅ Actualizado
+acc-general-amarilloa,General: Amarilloa,General,General,sin cambio
+acc-general-ancho-30cm-x-profundidad-50cm-x-altura-60cm,General: Ancho 30cm x Profundidad 50cm x Altura 60cm,General,General,sin cambio
+acc-general-ancho-39cm-x-profundidad-50cm-x-altura-60cm,General: Ancho 39cm x Profundidad 50cm x Altura 60cm,General,General,sin cambio
+acc-general-ancho-405cm-x-profundidad-50cm-x-altura-568cm,"General: Ancho 40,5cm x Profundidad 50cm x Altura 56,8cm",General,General,sin cambio
+acc-general-ancho-405cm-x-profundidad-50cm-x-altura-725cm,"General: Ancho 40,5cm x Profundidad 50cm x Altura 72,5cm",General,General,sin cambio
+acc-general-apoyo-lumbar,General: Apoyo Lumbar,General,General,sin cambio
+acc-general-arena,General: Arena,General,General,sin cambio
+acc-general-arenisca,General: Arenisca,General,General,sin cambio
+acc-general-aro-cromado,General: Aro Cromado,General,General,sin cambio
+acc-general-aro-metalico-negro,General: Aro Metálico negro,General,General,sin cambio
+acc-general-aro-negro,General: Aro negro,General,General,sin cambio
+acc-general-aro-nylon,General: Aro Nylon,General,General,sin cambio
+acc-general-aro-nylon-negro,General: Aro Nylon Negro,General,General,sin cambio
+acc-general-azul,General: Azul,General,Color Respaldo,✅ Actualizado
+acc-general-azul-petroleo,General: Azul petroleo,General,Color Respaldo,✅ Actualizado
+acc-general-azulino,General: Azulino,General,General,sin cambio
+acc-general-base-4-patas,General: Base 4 patas,General,General,sin cambio
+acc-general-base-aluminio,General: Base Aluminio,General,General,sin cambio
+acc-general-base-aluminio-piston-140-mm,General: Base Aluminio + Piston 140 mm,General,General,sin cambio
+acc-general-base-aluminio-pulido,General: Base Aluminio Pulido,General,General,sin cambio
+acc-general-base-cromada,General: Base Cromada,General,General,sin cambio
+acc-general-base-cromada-600,General: Base Cromada 600,General,General,sin cambio
+acc-general-base-estrellaruedas,General: Base estrella/ruedas,General,General,sin cambio
+acc-general-base-negra,General: Base Negra,General,General,sin cambio
+acc-general-base-nylon,General: Base Nylon,General,General,sin cambio
+acc-general-base-nylon-negra,General: Base Nylon Negra,General,General,sin cambio
+acc-general-beige,General: Beige,General,General,sin cambio
+acc-general-blanco,General: Blanco,General,Color Respaldo,✅ Actualizado
+acc-general-blanco-brillante,General: Blanco Brillante,General,Color Respaldo,✅ Actualizado
+acc-general-blanco-mt,General: Blanco MT,General,Color Respaldo,✅ Actualizado
+acc-general-brazo-fijo,General: Brazo Fijo,General,Brazos,✅ Actualizado
+acc-general-brazo-fijo-brc-24,General: Brazo Fijo BRC 24,General,Brazos,✅ Actualizado
+acc-general-brazo-regulable,General: Brazo Regulable,General,Brazos,✅ Actualizado
+acc-general-brazo-regulable-2d,General: Brazo Regulable 2D,General,Brazos,✅ Actualizado
+acc-general-brazo-regulable-3d-pu,General: Brazo Regulable 3D PU,General,Brazos,✅ Actualizado
+acc-general-brazo-regulable-brc-19-cr,General: Brazo Regulable BRC 19 CR,General,Brazos,✅ Actualizado
+acc-general-brazo-regulable-brc-19-cr-estructura-aluminio,General: Brazo Regulable BRC 19 CR Estructura Aluminio,General,Brazos,✅ Actualizado
+acc-general-brazo-regulable-brc-28-pp,General: Brazo Regulable BRC 28 PP,General,Brazos,✅ Actualizado
+acc-general-brazo-regulable-brc-28-pp-estructura-negra,General: Brazo Regulable BRC 28 PP Estructura Negra,General,Brazos,✅ Actualizado
+acc-general-brazo-regulable-en-pp,General: Brazo Regulable en PP,General,Brazos,✅ Actualizado
+acc-general-brazo-regulable-pp-2d,General: Brazo Regulable PP 2D,General,Brazos,✅ Actualizado
+acc-general-brazos,General: Brazos,General,General,sin cambio
+acc-general-brazos-fijo-pp,General: Brazos fijo PP,General,General,sin cambio
+acc-general-brazos-fijos,General: Brazos fijos,General,General,sin cambio
+acc-general-brazos-fijos-en-pp,General: Brazos Fijos en PP,General,General,sin cambio
+acc-general-brazos-fijos-golf,General: Brazos fijos Golf,General,General,sin cambio
+acc-general-brazos-fijos-golf-pp,General: Brazos Fijos Golf PP,General,General,sin cambio
+acc-general-brazos-fijos-pp,General: Brazos Fijos PP,General,General,sin cambio
+acc-general-brazos-plasticos-negros-con-pad-negro,General: Brazos Plásticos Negros con Pad Negro,General,General,sin cambio
+acc-general-brazos-plasticos-negros-con-pad-negro-revolution-20-21,General: Brazos plásticos negros con Pad negro (Revolution 20-21),General,General,sin cambio
+acc-general-brazos-regulables,General: Brazos Regulables,General,General,sin cambio
+acc-general-brazos-regulables-2d-en-pu,General: Brazos regulables 2D en PU,General,General,sin cambio
+acc-general-brazos-regulables-2d-en-tpu,General: Brazos Regulables 2D en TPU,General,General,sin cambio
+acc-general-brazos-regulables-2d-pu,General: Brazos Regulables 2D PU,General,General,sin cambio
+acc-general-brazos-regulables-2d-tpu,General: Brazos Regulables 2D TPU,General,General,sin cambio
+acc-general-brazos-regulables-3d-en-pu,General: Brazos Regulables 3D en PU,General,General,sin cambio
+acc-general-brazos-regulables-3d-pu,General: Brazos Regulables 3D PU,General,General,sin cambio
+acc-general-brazos-regulables-en-3d-pu,General: Brazos Regulables en 3D PU,General,General,sin cambio
+acc-general-brazos-regulables-en-tpu,General: Brazos Regulables en TPU,General,General,sin cambio
+acc-general-brazos-regulables-fritz-en-pp,General: Brazos Regulables Fritz en PP,General,General,sin cambio
+acc-general-brazos-regulables-fritz-pp,General: Brazos Regulables Fritz PP,General,General,sin cambio
+acc-general-brazos-regulables-pp,General: Brazos Regulables pp,General,General,sin cambio
+acc-general-brazos-regulables-vento-en-pu,General: Brazos Regulables Vento en PU,General,General,sin cambio
+acc-general-brown-oak,General: Brown Oak,General,General,sin cambio
+acc-general-burdeo,General: Burdeo,General,Color Tapiz,✅ Actualizado
+acc-general-c-soft,General: C-Soft,General,General,sin cambio
+acc-general-cabecero,General: Cabecero,General,General,sin cambio
+acc-general-cabecero-ancho-malla-fijo,General: Cabecero Ancho Malla Fijo,General,General,sin cambio
+acc-general-cabecero-ancho-malla-negro,General: Cabecero Ancho Malla Negro,General,General,sin cambio
+acc-general-cabecero-de-cuero-natural,General: Cabecero de Cuero natural,General,Color Tapiz,✅ Actualizado
+acc-general-cabecero-de-ecocuero-o-tela,General: Cabecero de ecocuero o tela,General,Color Tapiz,✅ Actualizado
+acc-general-cabecero-malla-fijo,General: Cabecero Malla Fijo,General,General,sin cambio
+acc-general-cabecero-negro,General: Cabecero negro,General,General,sin cambio
+acc-general-cabecero-y-colgador,General: Cabecero y colgador,General,General,sin cambio
+acc-general-cajonera-movil-laminada-3-con-cajones,General: Cajonera Móvil Laminada 3 con Cajones,General,General,sin cambio
+acc-general-calipso,General: Calipso,General,General,sin cambio
+acc-general-carmin,General: Carmin,General,General,sin cambio
+acc-general-celeste,General: Celeste,General,General,sin cambio
+acc-general-cerezo-agreste,General: Cerezo Agreste,General,General,sin cambio
+acc-general-cerezo-clasico,General: Cerezo Clasico,General,General,sin cambio
+acc-general-cesped,General: Césped,General,General,sin cambio
+acc-general-chang-ra,General: Chang Ra,General,General,sin cambio
+acc-general-cian,General: Cian,General,General,sin cambio
+acc-general-cojin-tapizado-en-tela-nordic,General: Cojín tapizado en tela Nordic,General,Color Tapiz,✅ Actualizado
+acc-general-cojin-tapizado-en-tela-verona,General: Cojín tapizado en tela Verona,General,Color Tapiz,✅ Actualizado
+acc-general-cojines-tapizados-en-cuero-italiano,General: Cojines Tapizados en Cuero Italiano,General,Color Tapiz,✅ Actualizado
+acc-general-cojines-tapizados-en-ecocuero,General: Cojines Tapizados en Ecocuero,General,Color Tapiz,✅ Actualizado
+acc-general-color-a-eleccion,General: Color a Eleccion,General,General,sin cambio
+acc-general-con-brazos,General: Con Brazos,General,General,sin cambio
+acc-general-con-brazos-pp,General: Con brazos pp,General,General,sin cambio
+acc-general-con-cabecero,General: Con cabecero,General,General,sin cambio
+acc-general-con-cubierta-metalica,General: Con Cubierta Metálica,General,General,sin cambio
+acc-general-con-rejilla,General: Con rejilla,General,General,sin cambio
+acc-general-con-rejilla-universittaria,General: Con Rejilla Universittaria,General,General,sin cambio
+acc-general-consultar-por-medidas-personalizadas,General: Consultar por medidas personalizadas,General,General,sin cambio
+acc-general-coral,General: Coral,General,General,sin cambio
+acc-general-corallo,General: Corallo,General,General,sin cambio
+acc-general-crema,General: Crema,General,General,sin cambio
+acc-general-cromada,General: Cromada,General,General,sin cambio
+acc-general-cromadas,General: Cromadas,General,General,sin cambio
+acc-general-cubierta-blanca,General: Cubierta Blanca,General,General,sin cambio
+acc-general-cubierta-negra,General: Cubierta Negra,General,General,sin cambio
+acc-general-desplazador,General: Desplazador,General,General,sin cambio
+acc-general-desplazador-de-asiento,General: Desplazador de Asiento,General,General,sin cambio
+acc-general-desplazador-de-asiento-en-profundidad,General: Desplazador de Asiento en Profundidad,General,General,sin cambio
+acc-general-diametro-100-cm,General: Diametro 100 CM,General,General,sin cambio
+acc-general-diametro-80-cm,General: Diametro 80 cm,General,General,sin cambio
+acc-general-eco-clean,General: Eco Clean,General,General,sin cambio
+acc-general-ecoclean-lavable-antimancha-para-1-cuerpo,General: Ecoclean Lavable Antimancha para 1 cuerpo,General,Color Tapiz,✅ Actualizado
+acc-general-ecoclean-lavable-antimancha-para-2-cuerpos,General: Ecoclean Lavable Antimancha para 2 cuerpos,General,Color Tapiz,✅ Actualizado
+acc-general-ecoclean-lavable-antimancha-para-3-cuerpos,General: Ecoclean Lavable Antimancha para 3 cuerpos,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero,General: Ecocuero,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-amarillo,General: Ecocuero Amarillo,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-azul-caribe,General: Ecocuero Azul Caribe,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-azul-electrico,General: Ecocuero Azul Eléctrico,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-azul-especial,General: Ecocuero Azul Especial,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-azul-marino,General: Ecocuero Azul Marino,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-azul-rey,General: Ecocuero Azul Rey,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-blanco-marfil,General: Ecocuero Blanco Marfil,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-blanco-plus,General: Ecocuero Blanco Plus,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-burdeo,General: Ecocuero Burdeo,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-cafe,General: Ecocuero Café,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-cafe-moro,General: Ecocuero Cafe Moro,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-cafe-oscuro,General: Ecocuero Cafe Oscuro,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-ecolife,General: Ecocuero Ecolife,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-gris,General: Ecocuero Gris,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-naranjo,General: Ecocuero Naranjo,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-negro,General: Ecocuero Negro,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-negro-plus,General: Ecocuero Negro Plus,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-rojo,General: Ecocuero Rojo,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-tacto-plus,General: Ecocuero Tacto Plus,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-verde,General: Ecocuero Verde,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-verde-manzana,General: Ecocuero Verde Manzana,General,Color Tapiz,✅ Actualizado
+acc-general-ecocuero-verde-pistacho,General: Ecocuero Verde Pistacho,General,Color Tapiz,✅ Actualizado
+acc-general-ecol-ecocuero,General: Ecol (Ecocuero),General,Color Tapiz,✅ Actualizado
+acc-general-elasticity,General: Elasticity,General,General,sin cambio
+acc-general-esmeralda,General: Esmeralda,General,General,sin cambio
+acc-general-estrella,General: Estrella,General,General,sin cambio
+acc-general-estrella-y-aro-cromado,General: Estrella y Aro Cromado,General,General,sin cambio
+acc-general-estructura-cromada,General: Estructura Cromada,General,General,sin cambio
+acc-general-estructura-gris,General: Estructura Gris,General,Color Respaldo,✅ Actualizado
+acc-general-estructura-negra,General: Estructura Negra,General,General,sin cambio
+acc-general-estructura-pintada,General: Estructura pintada,General,General,sin cambio
+acc-general-estructura-trineo-cromada,General: Estructura Trineo Cromada,General,General,sin cambio
+acc-general-estructura-trineo-cromado,General: Estructura Trineo Cromado,General,General,sin cambio
+acc-general-grafito,General: Grafito,General,General,sin cambio
+acc-general-granadillo,General: Granadillo,General,General,sin cambio
+acc-general-grey-cedar,General: Grey Cedar,General,General,sin cambio
+acc-general-gris,General: Gris,General,Color Respaldo,✅ Actualizado
+acc-general-gris-ultima-unidad,General: Gris (última unidad),General,Color Respaldo,✅ Actualizado
+acc-general-gris-claro,General: Gris claro,General,Color Respaldo,✅ Actualizado
+acc-general-gris-estrella,General: Gris Estrella,General,Color Respaldo,✅ Actualizado
+acc-general-gris-grafito,General: Gris Grafito,General,Color Respaldo,✅ Actualizado
+acc-general-gris-metalizado,General: Gris Metalizado,General,Color Respaldo,✅ Actualizado
+acc-general-gris-mt,General: Gris MT,General,Color Respaldo,✅ Actualizado
+acc-general-gris-oscuro,General: Gris Oscuro,General,Color Respaldo,✅ Actualizado
+acc-general-hardrock-mapple,General: Hardrock Mapple,General,General,sin cambio
+acc-general-haya,General: Haya,General,General,sin cambio
+acc-general-incluir-brazo-opuesto-a-paleta,General: Incluir Brazo Opuesto a Paleta,General,Brazos,✅ Actualizado
+acc-general-italian-oak,General: Italian Oak,General,General,sin cambio
+acc-general-kit-patines-5-unidades,General: Kit Patines  (5 unidades),General,General,sin cambio
+acc-general-lana-tela,General: Lana  (Tela),General,Color Tapiz,✅ Actualizado
+acc-general-marfil,General: Marfil,General,General,sin cambio
+acc-general-mecanismo-4-posiciones-de-bloqueo,General: Mecanismo 4 posiciones de bloqueo,General,General,sin cambio
+acc-general-mecanismo-con-4-posiciones-de-bloqueo,General: Mecanismo con 4 Posiciones de Bloqueo,General,General,sin cambio
+acc-general-medida-especial-solicitar-cotizacion,General: Medida Especial Solicitar Cotización,General,General,sin cambio
+acc-general-medio,General: Medio,General,General,sin cambio
+acc-general-medio-66-cm,General: Medio 66 cm,General,General,sin cambio
+acc-general-menta,General: Menta,General,General,sin cambio
+acc-general-mexico,General: Mexico,General,General,sin cambio
+acc-general-morado,General: Morado,General,Color Respaldo,✅ Actualizado
+acc-general-mostaza,General: Mostaza,General,General,sin cambio
+acc-general-musgo,General: Musgo,General,General,sin cambio
+acc-general-naranja,General: Naranja,General,Color Respaldo,✅ Actualizado
+acc-general-naranjo,General: Naranjo,General,Color Respaldo,✅ Actualizado
+acc-general-naranjo-amarillo,General: Naranjo amarillo,General,Color Respaldo,✅ Actualizado
+acc-general-natural-elm,General: Natural Elm,General,General,sin cambio
+acc-general-negra,General: Negra,General,General,sin cambio
+acc-general-negras,General: Negras,General,General,sin cambio
+acc-general-negro,General: Negro,General,General,sin cambio
+acc-general-negro-agotado,General: Negro agotado,General,General,sin cambio
+acc-general-negro-mt,General: Negro MT,General,General,sin cambio
+acc-general-niebla,General: Niebla,General,General,sin cambio
+acc-general-no,General: No,General,General,sin cambio
+acc-general-noce-cafe-late,General: Noce Cafe Late,General,General,sin cambio
+acc-general-nopal,General: Nopal,General,General,sin cambio
+acc-general-nordic,General: Nordic,General,General,sin cambio
+acc-general-nordic-2-cuerpos,General: Nordic 2 cuerpos,General,Cuerpos,✅ Actualizado
+acc-general-nordic-3-cuerpos,General: Nordic 3 Cuerpos,General,Cuerpos,✅ Actualizado
+acc-general-nordic-4-cuerpos,General: Nordic 4 cuerpos,General,Cuerpos,✅ Actualizado
+acc-general-nrgro,General: Nrgro,General,General,sin cambio
+acc-general-oliva,General: Oliva,General,General,sin cambio
+acc-general-pack-6-cajoneras-movil-laminada-3-con-cajones,General: Pack 6 Cajoneras Móvil Laminada 3 con Cajones,General,General,sin cambio
+acc-general-paleta-nacional-universitaria,General: Paleta Nacional Universitaria,General,General,sin cambio
+acc-general-paleta-universitaria,General: Paleta Universitaria,General,General,sin cambio
+acc-general-palo-rosa,General: Palo Rosa,General,General,sin cambio
+acc-general-par-brazos-aluminio-barnizado-negro-con-pad-negro,General: Par Brazos aluminio barnizado negro con Pad Negro,General,General,sin cambio
+acc-general-par-brazos-aluminio-pulido-pad-blanco,General: Par Brazos aluminio pulido Pad blanco,General,Color Respaldo,✅ Actualizado
+acc-general-par-brazos-aluminio-pulido-pad-negro,General: Par Brazos aluminio pulido Pad Negro,General,General,sin cambio
+acc-general-par-brazos-iso,General: Par Brazos Iso,General,General,sin cambio
+acc-general-par-de-brazos,General: Par de Brazos,General,General,sin cambio
+acc-general-par-de-brazos-iso,General: Par de Brazos Iso,General,General,sin cambio
+acc-general-par-de-brazos-negros,General: Par de Brazos Negros,General,General,sin cambio
+acc-general-pata-color-gris,General: Pata Color Gris,General,Patas,✅ Actualizado
+acc-general-pata-color-negr,General: Pata Color Negr,General,Patas,✅ Actualizado
+acc-general-pata-color-negro,General: Pata Color Negro,General,Patas,✅ Actualizado
+acc-general-pata-color-negro-agotada,General: Pata Color Negro( AGOTADA),General,Patas,✅ Actualizado
+acc-general-pata-cromada,General: Pata Cromada,General,Patas,✅ Actualizado
+acc-general-pata-luna-cromada,General: Pata Luna cromada,General,Patas,✅ Actualizado
+acc-general-pata-luna-negra,General: Pata Luna Negra,General,Patas,✅ Actualizado
+acc-general-pata-luna-pintada-negra,General: Pata Luna Pintada Negra,General,Patas,✅ Actualizado
+acc-general-pata-negra,General: Pata negra,General,Patas,✅ Actualizado
+acc-general-pata-recta,General: Pata Recta,General,Patas,✅ Actualizado
+acc-general-pata-recta-negra,General: Pata Recta negra,General,Patas,✅ Actualizado
+acc-general-pata-split,General: Pata Split,General,Patas,✅ Actualizado
+acc-general-pata-split-cromada,General: pata split cromada,General,Patas,✅ Actualizado
+acc-general-pata-split-negra,General: Pata split negra,General,Patas,✅ Actualizado
+acc-general-pata-y-de-auminio,General: Pata Y de Auminio,General,Patas,✅ Actualizado
+acc-general-pata-y-invertida-aluminio,General: Pata Y invertida  Aluminio,General,Patas,✅ Actualizado
+acc-general-pata-y-invertida-negra,General: Pata Y invertida  negra,General,Patas,✅ Actualizado
+acc-general-pata-y-invertida-aluminio-cromada,General: Pata Y invertida Aluminio Cromada,General,Patas,✅ Actualizado
+acc-general-pata-y-invertida-aluminio-pulido,General: Pata Y invertida Aluminio pulido,General,Patas,✅ Actualizado
+acc-general-pata-y-invertida-negro,General: Pata Y invertida Negro,General,Patas,✅ Actualizado
+acc-general-pata-y-invertida-pintada-aluminio,General: Pata Y invertida Pintada Aluminio,General,Patas,✅ Actualizado
+acc-general-pata-y-invertida-pintada-negra,General: Pata Y invertida Pintada negra,General,Patas,✅ Actualizado
+acc-general-pata-y-invertida-pintada-negro,General: Pata Y invertida Pintada Negro,General,Patas,✅ Actualizado
+acc-general-pata-y-pintada-negro,General: Pata Y pintada Negro,General,Patas,✅ Actualizado
+acc-general-patas-color-negro-agotada,General: Patas Color Negro( AGOTADA),General,General,sin cambio
+acc-general-patas-cromadas,General: Patas Cromadas,General,General,sin cambio
+acc-general-patas-grises,General: Patas Grises,General,General,sin cambio
+acc-general-patas-negras,General: Patas Negras,General,General,sin cambio
+acc-general-patas-negras-agotada,General: Patas Negras ( AGOTADA),General,General,sin cambio
+acc-general-patas-trineo-cromado,General: Patas Trineo Cromado,General,General,sin cambio
+acc-general-patas-y-invertida-pintada-negro,General: Patas Y Invertida  Pintada negro,General,General,sin cambio
+acc-general-patas-y-invertida-aluminio-pulido,General: Patas Y Invertida Aluminio Pulido,General,General,sin cambio
+acc-general-patin,General: Patin,General,General,sin cambio
+acc-general-patin-negro,General: Patín Negro,General,General,sin cambio
+acc-general-patines,General: Patines,General,General,sin cambio
+acc-general-patines-negros-en-vez-de-ruedas,General: Patínes Negros en vez de ruedas,General,General,sin cambio
+acc-general-peral,General: Peral,General,General,sin cambio
+acc-general-perchero,General: Perchero,General,General,sin cambio
+acc-general-petroleo,General: Petroleo,General,General,sin cambio
+acc-general-pistacho,General: Pistacho,General,Color Respaldo,✅ Actualizado
+acc-general-provincial-oak,General: Provincial Oak,General,General,sin cambio
+acc-general-rejilla-universitaria,General: Rejilla universitaria,General,General,sin cambio
+acc-general-revistero,General: Revistero,General,Extra,✅ Actualizado
+acc-general-rojo,General: Rojo,General,Color Respaldo,✅ Actualizado
+acc-general-rosa,General: Rosa,General,General,sin cambio
+acc-general-rosado,General: Rosado,General,Color Respaldo,✅ Actualizado
+acc-general-rueda-desmopan,General: Rueda Desmopan,General,General,sin cambio
+acc-general-ruedas,General: Ruedas,General,General,sin cambio
+acc-general-ruedas-desmopan,General: Ruedas Desmopán,General,General,sin cambio
+acc-general-ruedas-desmopan-para-piso-flotante,General: Ruedas Desmopan (Para Piso Flotante),General,General,sin cambio
+acc-general-ruedas-desmopan-50-mm-para-piso-flotante,General: Ruedas Desmopán 50 mm (Para Piso Flotante),General,General,sin cambio
+acc-general-ruedas-desmopan-50mm,General: Ruedas Desmopan 50mm,General,General,sin cambio
+acc-general-ruedas-desmopan-50mm-para-piso-flotante,General: Ruedas Desmopan 50mm (Para Piso Flotante),General,General,sin cambio
+acc-general-ruedas-desmopan-65mm-para-piso-flotante,General: Ruedas Desmopan 65mm (Para Piso Flotante),General,General,sin cambio
+acc-general-ruedas-desmopan-goma-65mm-para-piso-flotante,General: Ruedas Desmopan Goma 65mm (Para Piso Flotante),General,General,sin cambio
+acc-general-salice,General: Salice,General,General,sin cambio
+acc-general-scandinavian-wood,General: Scandinavian Wood,General,General,sin cambio
+acc-general-sea-white,General: Sea White,General,General,sin cambio
+acc-general-semi-sincronico-brazos-2d,General: Semi-sincronico/ Brazos 2D,General,General,sin cambio
+acc-general-senape,General: Senape,General,General,sin cambio
+acc-general-si,General: Si,General,General,sin cambio
+acc-general-silver-oak,General: Silver Oak,General,General,sin cambio
+acc-general-sin-aro,General: Sin aro,General,General,sin cambio
+acc-general-sin-brazo,General: Sin Brazo,General,Brazos,✅ Actualizado
+acc-general-sin-brazos,General: Sin Brazos,General,General,sin cambio
+acc-general-sin-cabecero,General: Sin cabecero,General,General,sin cambio
+acc-general-sin-cubierta,General: Sin Cubierta,General,General,sin cambio
+acc-general-sin-rejilla,General: Sin rejilla,General,General,sin cambio
+acc-general-sin-rejilla-universitaria,General: Sin Rejilla Universitaria,General,General,sin cambio
+acc-general-sincronico-brazos-3d,General: Sincrónico/ / Brazos 3D,General,General,sin cambio
+acc-general-tactoplus-ecocuero,General: Tactoplus (Ecocuero),General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-cuero-natural-consultar-colores-disponibles,General: Tapiz Cuero Natural (Consultar Colores Disponibles),General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-cuero-natural-consultar-opcion-de-colores,General: Tapiz Cuero natural (consultar opción de colores),General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-ecocuero,General: Tapiz Ecocuero,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-ecocuero-venetto,General: Tapiz Ecocuero Venetto,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-almendra,General: Tapiz Escocia Almendra,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-azul-arrecife,General: Tapiz Escocia Azul Arrecife,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-azul-lago,General: Tapiz Escocia Azul Lago,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-azul-reina,General: Tapiz Escocia Azul Reina,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-azul-rey,General: Tapiz Escocia Azul Rey,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-ciruela,General: Tapiz Escocia Ciruela,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-esmerarla,General: Tapiz Escocia Esmerarla,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-gris-acero,General: Tapiz Escocia Gris Acero,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-gris-nevado,General: Tapiz Escocia Gris Nevado,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-gris-raton,General: Tapiz Escocia Gris Ratón,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-mandarina,General: Tapiz Escocia Mandarina,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-mango,General: Tapiz Escocia Mango,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-naranja,General: Tapiz Escocia Naranja,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-negro,General: Tapiz Escocia Negro,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-rojo-fuego,General: Tapiz Escocia Rojo Fuego,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-rojo-tomate,General: Tapiz Escocia Rojo Tomate,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-tabaco,General: Tapiz Escocia Tabaco,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-escocia-verde-tilo,General: Tapiz Escocia Verde Tilo,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-azul,General: Tapiz New Glock Azul,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-azul-caribe,General: Tapiz New Glock Azul Caribe,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-azul-oscuro,General: Tapiz New Glock Azul Oscuro,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-caoba,General: Tapiz New Glock Caoba,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-esmeralda,General: Tapiz New Glock Esmeralda,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-gris,General: Tapiz New Glock Gris,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-mango,General: Tapiz New Glock Mango,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-manzana,General: Tapiz New Glock Manzana,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-negro,General: Tapiz New Glock Negro,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-plomo,General: Tapiz New Glock Plomo,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-rojo,General: Tapiz New Glock Rojo,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-new-glock-verde,General: Tapiz New Glock Verde,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-tela,General: Tapiz Tela,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-tela-escocia,General: Tapiz Tela Escocia,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-amarillo,General: Tapiz Venetto Amarillo,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-azul-caribe,General: Tapiz Venetto Azul Caribe,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-azul-especial,General: Tapiz Venetto Azul Especial,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-azul-rey,General: Tapiz Venetto Azul Rey,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-cafe,General: Tapiz Venetto Cafe,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-cafe-moro,General: Tapiz Venetto Cafe Moro,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-gris,General: Tapiz Venetto Gris,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-marfil,General: Tapiz Venetto Marfil,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-naranjo,General: Tapiz Venetto Naranjo,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-negro,General: Tapiz Venetto Negro,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-rojo,General: Tapiz Venetto Rojo,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-verde,General: Tapiz Venetto Verde,General,Color Tapiz,✅ Actualizado
+acc-general-tapiz-venetto-verde-pistacho,General: Tapiz Venetto Verde Pistacho,General,Color Tapiz,✅ Actualizado
+acc-general-tela,General: Tela,General,Color Tapiz,✅ Actualizado
+acc-general-tela-color-azul-marino,General: Tela Color Azul Marino,General,Color Tapiz,✅ Actualizado
+acc-general-tela-color-azul-rey,General: Tela Color Azul Rey,General,Color Tapiz,✅ Actualizado
+acc-general-tela-color-burdeo,General: Tela Color Burdeo,General,Color Tapiz,✅ Actualizado
+acc-general-tela-color-cafe,General: Tela Color Café,General,Color Tapiz,✅ Actualizado
+acc-general-tela-color-gris,General: Tela Color Gris,General,Color Tapiz,✅ Actualizado
+acc-general-tela-color-naranjo,General: Tela Color Naranjo,General,Color Tapiz,✅ Actualizado
+acc-general-tela-color-negro,General: Tela Color Negro,General,Color Tapiz,✅ Actualizado
+acc-general-tela-color-rojo-italiano,General: Tela Color Rojo Italiano,General,Color Tapiz,✅ Actualizado
+acc-general-tela-color-rojo-sandia,General: Tela Color Rojo Sandia,General,Color Tapiz,✅ Actualizado
+acc-general-tela-color-verde,General: Tela Color Verde,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-almendra,General: Tela Escocia Almendra,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-azul-arrecife,General: Tela Escocia Azul Arrecife,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-azul-lago,General: Tela Escocia Azul Lago,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-azul-reina,General: Tela Escocia Azul Reina,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-azul-rey,General: Tela Escocia Azul Rey,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-ciruela,General: Tela Escocia Ciruela,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-gris-acero,General: Tela Escocia Gris Acero,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-gris-nevado,General: Tela Escocia Gris Nevado,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-gris-raton,General: Tela Escocia Gris Raton,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-mandarina,General: Tela Escocia Mandarina,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-mango,General: Tela Escocia Mango,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-negro,General: Tela Escocia Negro,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-rojo-tomate,General: Tela Escocia Rojo Tomate,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-tabaco,General: Tela Escocia Tabaco,General,Color Tapiz,✅ Actualizado
+acc-general-tela-escocia-verde-tilo,General: Tela Escocia Verde Tilo,General,Color Tapiz,✅ Actualizado
+acc-general-tela-lana,General: Tela Lana,General,Color Tapiz,✅ Actualizado
+acc-general-tela-o-ecocuero-o-verona,General: Tela o Ecocuero o Verona,General,Color Tapiz,✅ Actualizado
+acc-general-terrano,General: Terrano,General,General,sin cambio
+acc-general-tortora,General: Tortora,General,General,sin cambio
+acc-general-trineo-cromado,General: Trineo cromado,General,General,sin cambio
+acc-general-vainilla,General: Vainilla,General,General,sin cambio
+acc-general-verde,General: Verde,General,Color Respaldo,✅ Actualizado
+acc-general-verde-esmeralda,General: Verde Esmeralda,General,Color Respaldo,✅ Actualizado
+acc-general-verde-manzana,General: Verde Manzana,General,Color Respaldo,✅ Actualizado
+acc-general-verde-pistacho,General: Verde Pistacho,General,Color Respaldo,✅ Actualizado
+acc-general-verona,General: Verona,General,General,sin cambio
+acc-general-wengue,General: Wengue,General,General,sin cambio
+acc-general-wengue-tabaco,General: Wengue Tabaco,General,General,sin cambio
+acc-general-white-oak,General: White Oak,General,General,sin cambio
+acc-general-zafiro,General: Zafiro,General,General,sin cambio
+acc-indicar-color-segun-muestrario-ecocuero,Indicar Color según Muestrario: Ecocuero,Indicar Color según Muestrario,Color Tapiz,✅ Actualizado
+acc-malla-color-azul,Malla Color: Azul,Malla Color,Color Respaldo,✅ Actualizado
+acc-malla-color-gris,Malla Color: Gris,Malla Color,Color Respaldo,✅ Actualizado
+acc-mecanismo-semi-sincronico-brazos-2d,Mecanismo: Semi-sincronico/ Brazos 2D,Mecanismo,Mecanismo,sin cambio
+acc-medida-cubierta-por-puesto-de-trabajo-12-mts-ancho-x-60-cm-profundidad,"Medida Cubierta por Puesto de Trabajo: 1,2 mts Ancho x 60 cm Profundidad",Medida Cubierta por Puesto de Trabajo,Medida Cubierta por Puesto de Trabajo,sin cambio
+acc-medida-total-bateria-de-trabajo-24-mts-ancho-x-12-mts-profundidad-puesto-de-12-mts-ancho-por-60-cm-profundidad,"Medida Total Batería de Trabajo: 2,4 mts Ancho x 1,2 mts Profundidad (Puesto de 1,2 mts ancho por 60 cm profundidad)",Medida Total Batería de Trabajo,Medida Total Batería de Trabajo,sin cambio
+acc-medida-total-bateria-de-trabajo-36-mts-ancho-x-12-mts-profundidad-puesto-de-12-mts-ancho-por-60cm-profundidad,"Medida Total Batería de Trabajo: 3,6 mts Ancho x 1,2 mts Profundidad (Puesto de 1,2 mts ancho por 60cm profundidad)",Medida Total Batería de Trabajo,Medida Total Batería de Trabajo,sin cambio
+acc-medida-total-escritorio-12-mts-ancho-x-06-mts-profundidad,"Medida Total escritorio: 1,2 mts Ancho x 0,6 mts Profundidad",Medida Total escritorio,Medida Total escritorio,sin cambio
+acc-medida-total-escritorio-15-x-14-mts-06x-05-mts-profundidad,"Medida Total escritorio: 1,5 x 1,4 mts / 0,6x 0,5 mts Profundidad",Medida Total escritorio,Medida Total escritorio,sin cambio
+acc-medidas-ancho-30cm-x-profundidad-50cm-x-altura-60cm,Medidas: Ancho 30cm x Profundidad 50cm x Altura 60cm,Medidas,Medidas,sin cambio
+acc-medidas-ancho-405cm-x-profundidad-50cm-x-altura-568cm,"Medidas: Ancho 40,5cm x Profundidad 50cm x Altura 56,8cm",Medidas,Medidas,sin cambio
+acc-medidas-ancho-405cm-x-profundidad-50cm-x-altura-725cm,"Medidas: Ancho 40,5cm x Profundidad 50cm x Altura 72,5cm",Medidas,Medidas,sin cambio
+acc-opcion-cuero-natural-color-a-eleccion,Opcion Cuero Natural: Color a Eleccion,Opcion Cuero Natural,Opcion Cuero Natural,sin cambio
+acc-opcion-de-brazos-sin-brazos,OPCION DE BRAZOS: Sin brazos,OPCION DE BRAZOS,OPCION DE BRAZOS,sin cambio
+acc-opcional-aro-cromado,Opcional: Aro cromado,Opcional,Opcional,sin cambio
+acc-opcional-base-aluminio,opcional: Base Aluminio,opcional,opcional,sin cambio
+acc-opcional-base-cromada,Opcional: Base Cromada,Opcional,Opcional,sin cambio
+acc-opcional-cabecero,Opcional: Cabecero,Opcional,Opcional,sin cambio
+acc-opcional-cabecero-de-ecocuero-o-tela,OPCIONAL: Cabecero de ecocuero o tela,OPCIONAL,Color Tapiz,✅ Actualizado
+acc-opcional-desplazador-de-asiento,Opcional: Desplazador de Asiento,Opcional,Opcional,sin cambio
+acc-opcional-mecanismo-4-posiciones-de-bloqueo,Opcional: Mecanismo 4 posiciones de bloqueo,Opcional,Opcional,sin cambio
+acc-opcional-ruedas-desmopan-para-piso-flotante,Opcional: Ruedas Desmopan (Para Piso Flotante),Opcional,Opcional,sin cambio
+acc-opcional-ruedas-desmopan-50-mm-para-piso-flotante,Opcional: Ruedas Desmopán 50 mm (Para Piso Flotante),Opcional,Opcional,sin cambio
+acc-opcional-ruedas-desmopan-50mm,Opcional: Ruedas Desmopan 50mm,Opcional,Opcional,sin cambio
+acc-opcional-ruedas-desmopan-65mm-para-piso-flotante,Opcional: Ruedas Desmopan 65mm (Para Piso Flotante),Opcional,Opcional,sin cambio
+acc-opcional-tapiz-cuero-natural-consultar-colores-disponibles,Opcional: Tapiz Cuero Natural (Consultar Colores Disponibles),Opcional,Color Tapiz,✅ Actualizado
+acc-opcionales-2-cajoneras-movil-laminada-3-cajones,Opcionales: 2 Cajoneras Móvil Laminada 3 Cajones,Opcionales,Opcionales,sin cambio
+acc-opcionales-4-cajoneras-movil-laminada-3-con-cajones,Opcionales: 4 Cajoneras Móvil Laminada 3 con Cajones,Opcionales,Opcionales,sin cambio
+acc-opcionales-base-aluminio,OPCIONALES: Base Aluminio,OPCIONALES,OPCIONALES,sin cambio
+acc-opcionales-cabecero,Opcionales: Cabecero,Opcionales,Opcionales,sin cambio
+acc-opcionales-cabecero-ancho-malla-fijo,Opcionales: Cabecero Ancho Malla Fijo,Opcionales,Opcionales,sin cambio
+acc-opcionales-cabecero-malla-fijo,Opcionales: Cabecero Malla Fijo,Opcionales,Opcionales,sin cambio
+acc-opcionales-cabecero-y-colgador,Opcionales: Cabecero y colgador,Opcionales,Opcionales,sin cambio
+acc-opcionales-cajonera-movil-laminada-3-con-cajones,Opcionales: Cajonera Móvil Laminada 3 con Cajones,Opcionales,Opcionales,sin cambio
+acc-opcionales-mecanismo-con-4-posiciones-de-bloqueo,OPCIONALES: Mecanismo con 4 Posiciones de Bloqueo,OPCIONALES,OPCIONALES,sin cambio
+acc-opcionales-pack-6-cajoneras-movil-laminada-3-con-cajones,Opcionales: Pack 6 Cajoneras Móvil Laminada 3 con Cajones,Opcionales,Opcionales,sin cambio
+acc-opcionales-ruedas-desmopan,Opcionales: Ruedas desmopan,Opcionales,Opcionales,sin cambio
+acc-opcionales-ruedas-desmopan-para-piso-flotante,OPCIONALES: Ruedas Desmopan (Para Piso Flotante),OPCIONALES,OPCIONALES,sin cambio
+acc-opciones-extra-cabecero,Opciones extra: Cabecero,Opciones extra,Opciones extra,sin cambio
+acc-opciones-sin-brazos,Opciones: Sin brazos,Opciones,Opciones,sin cambio
+acc-patas-a1-negra-agotada,PATAS: A1. Negra (agotada),PATAS,Patas,✅ Actualizado
+acc-patas-base-aluminio,Patas: Base Aluminio,Patas,Patas,sin cambio
+acc-patas-base-cromada,Patas: Base cromada,Patas,Patas,sin cambio
+acc-patas-base-negra,Patas: Base Negra,Patas,Patas,sin cambio
+acc-patas-base-nylon-negra,Patas: Base Nylon Negra,Patas,Patas,sin cambio
+acc-patas-pata-color-gris,Patas: Pata Color Gris,Patas,Patas,sin cambio
+acc-patas-pata-color-negro,Patas: Pata Color Negro,Patas,Patas,sin cambio
+acc-patas-pata-color-negro-agotada,Patas: Pata Color Negro( AGOTADA),Patas,Patas,sin cambio
+acc-patas-pata-recta,Patas: Pata Recta,Patas,Patas,sin cambio
+acc-patas-pata-recta-negra,Patas: Pata Recta negra,Patas,Patas,sin cambio
+acc-patas-pata-split-negra,PATAS: Pata split negra,PATAS,Patas,✅ Actualizado
+acc-patas-pata-y-invertida-negra,Patas: Pata Y invertida  negra,Patas,Patas,sin cambio
+acc-patas-pata-y-invertida-negro,Patas: Pata Y invertida Negro,Patas,Patas,sin cambio
+acc-patas-pata-y-invertida-pintada-aluminio,Patas: Pata Y invertida Pintada Aluminio,Patas,Patas,sin cambio
+acc-patas-pata-y-invertida-pintada-negra,Patas: Pata Y invertida Pintada negra,Patas,Patas,sin cambio
+acc-patas-pata-y-invertida-pintada-negro,Patas: Pata Y invertida Pintada Negro,Patas,Patas,sin cambio
+acc-patas-pata-y-pintada-negro,PATAS: Pata Y pintada Negro,PATAS,Patas,✅ Actualizado
+acc-patas-patas-color-negro-agotada,Patas: Patas Color Negro( AGOTADA),Patas,Patas,sin cambio
+acc-patas-patas-cromadas,Patas: Patas Cromadas,Patas,Patas,sin cambio
+acc-patas-patas-grises,Patas: Patas Grises,Patas,Patas,sin cambio
+acc-patas-patas-negras,Patas: Patas Negras,Patas,Patas,sin cambio
+acc-patas-patas-negras-agotada,Patas: Patas Negras ( AGOTADA),Patas,Patas,sin cambio
+acc-patas-patas-y-invertida-pintada-negro,Patas: Patas Y Invertida  Pintada negro,Patas,Patas,sin cambio
+acc-plastico-color-azul,Plástico Color: Azul,Plástico Color,Color Respaldo,✅ Actualizado
+acc-plastico-azul,Plástico: Azul,Plástico,Color Respaldo,✅ Actualizado
+acc-respaldo-color-azul,Respaldo Color: Azul,Respaldo Color,Color Respaldo,✅ Actualizado
+acc-respaldo-color-blanco,Respaldo Color: Blanco,Respaldo Color,Color Respaldo,✅ Actualizado
+acc-respaldo-plastico-color-azul,Respaldo Plástico Color: Azul,Respaldo Plástico Color,Color Respaldo,✅ Actualizado
+acc-respaldo-plastico-blanco,Respaldo Plástico: Blanco,Respaldo Plástico,Color Respaldo,✅ Actualizado
+acc-respaldo-polipropileno-color-negro,Respaldo Polipropileno Color: Negro,Respaldo Polipropileno Color,Respaldo Polipropileno Color,sin cambio
+acc-respaldo-medio,Respaldo: Medio,Respaldo,Respaldo,sin cambio
+acc-seleccion-tapiz-segun-muestrario-de-silla-ecol-ecocuero,Selección Tapiz según muestrario de Silla: Ecol (Ecocuero),Selección Tapiz según muestrario de Silla,Color Tapiz,✅ Actualizado
+acc-seleccion-tapiz-segun-muestrario-de-silla-elasticity,SELECCIÓN TAPIZ SEGÚN MUESTRARIO DE SILLA: Elasticity,SELECCIÓN TAPIZ SEGÚN MUESTRARIO DE SILLA,SELECCIÓN TAPIZ SEGÚN MUESTRARIO DE SILLA,sin cambio
+acc-tamano-cubierta-diametro-80-cm,Tamaño Cubierta: Diametro 80 cm,Tamaño Cubierta,Tamaño Cubierta,sin cambio
+acc-tapiz-asiento-segun-muestrario-tapiz-escocia-almendra,Tapiz Asiento según Muestrario: Tapiz Escocia Almendra,Tapiz Asiento según Muestrario,Color Tapiz,✅ Actualizado
+acc-tapiz-asiento-tapiz-escocia-almendra,Tapiz Asiento: Tapiz Escocia Almendra,Tapiz Asiento,Color Tapiz,✅ Actualizado
+acc-tapiz-ecoclean-color-gris,Tapiz Ecoclean Color: Gris,Tapiz Ecoclean Color,Color Respaldo,✅ Actualizado
+acc-tapiz-lavable-ecoclean-nordic-2-cuerpos,Tapiz Lavable Ecoclean: Nordic 2 Cuerpos,Tapiz Lavable Ecoclean,Cuerpos,✅ Actualizado
+acc-tapiz-cojines-tapizados-en-ecocuero,Tapiz: Cojines Tapizados en Ecocuero,Tapiz,Color Tapiz,✅ Actualizado
+acc-tapiz-ecoclean-lavable-antimancha-para-1-cuerpo,Tapiz: Ecoclean Lavable Antimancha para 1 cuerpo,Tapiz,Color Tapiz,✅ Actualizado
+acc-tapiz-lana-tela,Tapiz: Lana  (Tela),Tapiz,Color Tapiz,✅ Actualizado
+acc-tapiz-tapiz-ecocuero,Tapiz: Tapiz Ecocuero,Tapiz,Color Tapiz,✅ Actualizado
+acc-tapiz-tapiz-ecocuero-venetto,Tapiz: Tapiz Ecocuero Venetto,Tapiz,Color Tapiz,✅ Actualizado
+acc-tapiz-tapiz-escocia-almendra,Tapiz: Tapiz Escocia Almendra,Tapiz,Color Tapiz,✅ Actualizado
+acc-tapiz-tela-lana,TAPIZ: Tela Lana,TAPIZ,Color Tapiz,✅ Actualizado
+acc-tapiz-tela-o-ecocuero-o-verona,Tapiz: Tela o Ecocuero o Verona,Tapiz,Color Tapiz,✅ Actualizado
